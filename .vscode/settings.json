@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "ostream": "cpp"
+    },
+    "makefile.makePath": "",
+    "makefile.makefilePath": "makefile"
+}
