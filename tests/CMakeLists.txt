@@ -1,0 +1,2 @@
+add_executable(test_driver test_driver.cpp)
+target_link_libraries(test_driver dialogue_driver gtest gtest_main)
