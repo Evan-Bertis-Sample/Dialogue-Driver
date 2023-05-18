@@ -6,6 +6,35 @@
 
 #include "dialogue_driver/fact.h"
 
+//* Constructors
+template<typename T>
+Fact::Fact(T data) {
+    FACT_TYPE ftype = Fact::GetFactType<T>(T());
+    if(ftype == -1) {
+        throw std::logic_error("Cannot creat a fact of this type!");
+    }
+    this->_factType = ftype;
+    std::cout << "Fact type: " << ftype << std::endl;
+    switch (ftype)
+    {
+        case INT:
+            this->_data.intData = data;
+            break;
+        case FLOAT:
+            this->_data.floatData = data;
+            break;
+        case BOOL:
+            this->_data.boolData = data;
+            break;
+        case STRING:
+            this->_data.stringData = (std::string*)(&data);
+            break;
+        default:
+            throw std::logic_error("Something went wrong creating a fact");
+    }
+
+}
+
 bool Fact::VerifyType(FACT_TYPE ftype) const {
     if(this->_factType != ftype) {
         throw std::logic_error("Fact type does not match the expected type");

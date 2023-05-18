@@ -9,12 +9,12 @@
 #include "dialogue_driver/fact.h"
 #include "dialogue_driver/story_state.h"
 
-Fact StoryState::_FindFact(std::string factName) {
+Fact StoryState::_FindFact(std::string factName) const {
     if(this->_facts.find(factName) == this->_facts.end()) { // Fact not found
         throw new std::logic_error("Fact does not exist in Story State!");
     }
 
-    return this->_facts[factName];
+    return this->_facts.at(factName);
 }
 
 template<typename T>

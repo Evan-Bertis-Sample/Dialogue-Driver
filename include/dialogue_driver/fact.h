@@ -2,6 +2,8 @@
 #define FACT_H
 
 #include <string>
+#include <stdexcept>
+#include <iostream>
 
 enum FACT_TYPE {
     INT,
@@ -32,6 +34,9 @@ public:
     // Primary constructor
     Fact(FACT_TYPE ftype):
         _factType(ftype) {}
+
+    template<typename T>
+    Fact(T data);
 
     // Default constructor
     Fact():

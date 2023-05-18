@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "D:/Documents/Code/Personal Projects/Dialogue-Driver/build/CMakeFiles" "D:/Documents/Code/Personal Projects/Dialogue-Driver/build//CMakeFiles/progress.marks"
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
+	cd "D:/Documents/Code/Personal Projects/Dialogue-Driver/build" && $(CMAKE_COMMAND) -E cmake_progress_start "D:/Documents/Code/Personal Projects/Dialogue-Driver/build/CMakeFiles" "D:/Documents/Code/Personal Projects/Dialogue-Driver/build/src//CMakeFiles/progress.marks"
+	cd "D:/Documents/Code/Personal Projects/Dialogue-Driver/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "D:/Documents/Code/Personal Projects/Dialogue-Driver/build/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
 clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 clean
+	cd "D:/Documents/Code/Personal Projects/Dialogue-Driver/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,133 +148,104 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 preinstall
+	cd "D:/Documents/Code/Personal Projects/Dialogue-Driver/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 preinstall
+	cd "D:/Documents/Code/Personal Projects/Dialogue-Driver/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd "D:/Documents/Code/Personal Projects/Dialogue-Driver/build" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
-#=============================================================================
-# Target rules for targets named dialogue_driver
+# Convenience name for target.
+src/CMakeFiles/Dialogue-Driver.dir/rule:
+	cd "D:/Documents/Code/Personal Projects/Dialogue-Driver/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/Dialogue-Driver.dir/rule
+.PHONY : src/CMakeFiles/Dialogue-Driver.dir/rule
 
-# Build rule for target.
-dialogue_driver: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dialogue_driver
-.PHONY : dialogue_driver
-
-# fast build rule for target.
-dialogue_driver/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dialogue_driver.dir/build.make CMakeFiles/dialogue_driver.dir/build
-.PHONY : dialogue_driver/fast
-
-#=============================================================================
-# Target rules for targets named gmock
-
-# Build rule for target.
-gmock: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gmock
-.PHONY : gmock
-
-# fast build rule for target.
-gmock/fast:
-	$(MAKE) $(MAKESILENT) -f libs/googletest/googlemock/CMakeFiles/gmock.dir/build.make libs/googletest/googlemock/CMakeFiles/gmock.dir/build
-.PHONY : gmock/fast
-
-#=============================================================================
-# Target rules for targets named gmock_main
-
-# Build rule for target.
-gmock_main: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gmock_main
-.PHONY : gmock_main
-
-# fast build rule for target.
-gmock_main/fast:
-	$(MAKE) $(MAKESILENT) -f libs/googletest/googlemock/CMakeFiles/gmock_main.dir/build.make libs/googletest/googlemock/CMakeFiles/gmock_main.dir/build
-.PHONY : gmock_main/fast
-
-#=============================================================================
-# Target rules for targets named gtest
-
-# Build rule for target.
-gtest: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gtest
-.PHONY : gtest
-
-# fast build rule for target.
-gtest/fast:
-	$(MAKE) $(MAKESILENT) -f libs/googletest/googletest/CMakeFiles/gtest.dir/build.make libs/googletest/googletest/CMakeFiles/gtest.dir/build
-.PHONY : gtest/fast
-
-#=============================================================================
-# Target rules for targets named gtest_main
-
-# Build rule for target.
-gtest_main: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gtest_main
-.PHONY : gtest_main
-
-# fast build rule for target.
-gtest_main/fast:
-	$(MAKE) $(MAKESILENT) -f libs/googletest/googletest/CMakeFiles/gtest_main.dir/build.make libs/googletest/googletest/CMakeFiles/gtest_main.dir/build
-.PHONY : gtest_main/fast
-
-#=============================================================================
-# Target rules for targets named Dialogue-Driver
-
-# Build rule for target.
-Dialogue-Driver: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Dialogue-Driver
+# Convenience name for target.
+Dialogue-Driver: src/CMakeFiles/Dialogue-Driver.dir/rule
 .PHONY : Dialogue-Driver
 
 # fast build rule for target.
 Dialogue-Driver/fast:
-	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/Dialogue-Driver.dir/build.make src/CMakeFiles/Dialogue-Driver.dir/build
+	cd "D:/Documents/Code/Personal Projects/Dialogue-Driver/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Dialogue-Driver.dir/build.make src/CMakeFiles/Dialogue-Driver.dir/build
 .PHONY : Dialogue-Driver/fast
 
-#=============================================================================
-# Target rules for targets named test_driver
-
-# Build rule for target.
-test_driver: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test_driver
-.PHONY : test_driver
-
-# fast build rule for target.
-test_driver/fast:
-	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test_driver.dir/build.make tests/CMakeFiles/test_driver.dir/build
-.PHONY : test_driver/fast
-
-src/driver.obj: src/driver.cpp.obj
-.PHONY : src/driver.obj
+driver.obj: driver.cpp.obj
+.PHONY : driver.obj
 
 # target to build an object file
-src/driver.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dialogue_driver.dir/build.make CMakeFiles/dialogue_driver.dir/src/driver.cpp.obj
-.PHONY : src/driver.cpp.obj
+driver.cpp.obj:
+	cd "D:/Documents/Code/Personal Projects/Dialogue-Driver/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Dialogue-Driver.dir/build.make src/CMakeFiles/Dialogue-Driver.dir/driver.cpp.obj
+.PHONY : driver.cpp.obj
 
-src/driver.i: src/driver.cpp.i
-.PHONY : src/driver.i
+driver.i: driver.cpp.i
+.PHONY : driver.i
 
 # target to preprocess a source file
-src/driver.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dialogue_driver.dir/build.make CMakeFiles/dialogue_driver.dir/src/driver.cpp.i
-.PHONY : src/driver.cpp.i
+driver.cpp.i:
+	cd "D:/Documents/Code/Personal Projects/Dialogue-Driver/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Dialogue-Driver.dir/build.make src/CMakeFiles/Dialogue-Driver.dir/driver.cpp.i
+.PHONY : driver.cpp.i
 
-src/driver.s: src/driver.cpp.s
-.PHONY : src/driver.s
+driver.s: driver.cpp.s
+.PHONY : driver.s
 
 # target to generate assembly for a file
-src/driver.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dialogue_driver.dir/build.make CMakeFiles/dialogue_driver.dir/src/driver.cpp.s
-.PHONY : src/driver.cpp.s
+driver.cpp.s:
+	cd "D:/Documents/Code/Personal Projects/Dialogue-Driver/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Dialogue-Driver.dir/build.make src/CMakeFiles/Dialogue-Driver.dir/driver.cpp.s
+.PHONY : driver.cpp.s
+
+fact.obj: fact.cpp.obj
+.PHONY : fact.obj
+
+# target to build an object file
+fact.cpp.obj:
+	cd "D:/Documents/Code/Personal Projects/Dialogue-Driver/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Dialogue-Driver.dir/build.make src/CMakeFiles/Dialogue-Driver.dir/fact.cpp.obj
+.PHONY : fact.cpp.obj
+
+fact.i: fact.cpp.i
+.PHONY : fact.i
+
+# target to preprocess a source file
+fact.cpp.i:
+	cd "D:/Documents/Code/Personal Projects/Dialogue-Driver/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Dialogue-Driver.dir/build.make src/CMakeFiles/Dialogue-Driver.dir/fact.cpp.i
+.PHONY : fact.cpp.i
+
+fact.s: fact.cpp.s
+.PHONY : fact.s
+
+# target to generate assembly for a file
+fact.cpp.s:
+	cd "D:/Documents/Code/Personal Projects/Dialogue-Driver/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Dialogue-Driver.dir/build.make src/CMakeFiles/Dialogue-Driver.dir/fact.cpp.s
+.PHONY : fact.cpp.s
+
+story_state.obj: story_state.cpp.obj
+.PHONY : story_state.obj
+
+# target to build an object file
+story_state.cpp.obj:
+	cd "D:/Documents/Code/Personal Projects/Dialogue-Driver/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Dialogue-Driver.dir/build.make src/CMakeFiles/Dialogue-Driver.dir/story_state.cpp.obj
+.PHONY : story_state.cpp.obj
+
+story_state.i: story_state.cpp.i
+.PHONY : story_state.i
+
+# target to preprocess a source file
+story_state.cpp.i:
+	cd "D:/Documents/Code/Personal Projects/Dialogue-Driver/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Dialogue-Driver.dir/build.make src/CMakeFiles/Dialogue-Driver.dir/story_state.cpp.i
+.PHONY : story_state.cpp.i
+
+story_state.s: story_state.cpp.s
+.PHONY : story_state.s
+
+# target to generate assembly for a file
+story_state.cpp.s:
+	cd "D:/Documents/Code/Personal Projects/Dialogue-Driver/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Dialogue-Driver.dir/build.make src/CMakeFiles/Dialogue-Driver.dir/story_state.cpp.s
+.PHONY : story_state.cpp.s
 
 # Help Target
 help:
@@ -289,15 +260,15 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... Dialogue-Driver"
-	@echo "... dialogue_driver"
-	@echo "... gmock"
-	@echo "... gmock_main"
-	@echo "... gtest"
-	@echo "... gtest_main"
-	@echo "... test_driver"
-	@echo "... src/driver.obj"
-	@echo "... src/driver.i"
-	@echo "... src/driver.s"
+	@echo "... driver.obj"
+	@echo "... driver.i"
+	@echo "... driver.s"
+	@echo "... fact.obj"
+	@echo "... fact.i"
+	@echo "... fact.s"
+	@echo "... story_state.obj"
+	@echo "... story_state.i"
+	@echo "... story_state.s"
 .PHONY : help
 
 
@@ -309,6 +280,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd "D:/Documents/Code/Personal Projects/Dialogue-Driver/build" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

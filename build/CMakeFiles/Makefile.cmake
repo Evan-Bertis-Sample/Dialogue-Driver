@@ -52,6 +52,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "D:/Documents/Code/Personal Projects/Dialogue-Driver/libs/googletest/googletest/cmake/gtest.pc.in"
   "D:/Documents/Code/Personal Projects/Dialogue-Driver/libs/googletest/googletest/cmake/gtest_main.pc.in"
   "D:/Documents/Code/Personal Projects/Dialogue-Driver/libs/googletest/googletest/cmake/internal_utils.cmake"
+  "D:/Documents/Code/Personal Projects/Dialogue-Driver/src/CMakeLists.txt"
   "D:/Documents/Code/Personal Projects/Dialogue-Driver/tests/CMakeLists.txt"
   )
 
@@ -74,6 +75,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "libs/googletest/googletest/generated/gtest.pc"
   "libs/googletest/googletest/generated/gtest_main.pc"
   "libs/googletest/googletest/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "src/CMakeFiles/CMakeDirectoryInformation.cmake"
   "tests/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
@@ -84,5 +86,6 @@ set(CMAKE_DEPEND_INFO_FILES
   "libs/googletest/googlemock/CMakeFiles/gmock_main.dir/DependInfo.cmake"
   "libs/googletest/googletest/CMakeFiles/gtest.dir/DependInfo.cmake"
   "libs/googletest/googletest/CMakeFiles/gtest_main.dir/DependInfo.cmake"
+  "src/CMakeFiles/Dialogue-Driver.dir/DependInfo.cmake"
   "tests/CMakeFiles/test_driver.dir/DependInfo.cmake"
   )

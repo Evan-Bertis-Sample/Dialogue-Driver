@@ -2,13 +2,13 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "libdialogue_driver.dll"
+			"path" : "src/libDialogue-Driver.dll"
 		},
 		{
-			"path" : "libdialogue_driver.dll.a"
+			"path" : "src/libDialogue-Driver.dll.a"
 		},
 		{
-			"path" : "libdialogue_driver.pdb"
+			"path" : "src/libDialogue-Driver.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -21,6 +21,7 @@
 		],
 		"files" : 
 		[
+			"src/CMakeLists.txt",
 			"CMakeLists.txt"
 		],
 		"nodes" : 
@@ -31,14 +32,17 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 10,
+				"line" : 5,
 				"parent" : 0
 			},
 			{
+				"file" : 1
+			},
+			{
 				"command" : 1,
-				"file" : 0,
+				"file" : 1,
 				"line" : 8,
-				"parent" : 0
+				"parent" : 2
 			}
 		]
 	},
@@ -54,13 +58,13 @@
 			"defines" : 
 			[
 				{
-					"define" : "dialogue_driver_EXPORTS"
+					"define" : "Dialogue_Driver_EXPORTS"
 				}
 			],
 			"includes" : 
 			[
 				{
-					"backtrace" : 2,
+					"backtrace" : 3,
 					"path" : "D:/Documents/Code/Personal Projects/Dialogue-Driver/include"
 				}
 			],
@@ -75,11 +79,13 @@
 			},
 			"sourceIndexes" : 
 			[
-				0
+				0,
+				1,
+				2
 			]
 		}
 	],
-	"id" : "dialogue_driver::@6890427a1f51a3e7e1df",
+	"id" : "Dialogue-Driver::@145eef247bfb46b6828c",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -95,12 +101,12 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "dialogue_driver",
-	"nameOnDisk" : "libdialogue_driver.dll",
+	"name" : "Dialogue-Driver",
+	"nameOnDisk" : "libDialogue-Driver.dll",
 	"paths" : 
 	{
-		"build" : ".",
-		"source" : "."
+		"build" : "src",
+		"source" : "src"
 	},
 	"sourceGroups" : 
 	[
@@ -108,7 +114,9 @@
 			"name" : "Source Files",
 			"sourceIndexes" : 
 			[
-				0
+				0,
+				1,
+				2
 			]
 		}
 	],
@@ -118,6 +126,18 @@
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
 			"path" : "src/driver.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/fact.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/story_state.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],

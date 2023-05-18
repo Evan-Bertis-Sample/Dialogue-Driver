@@ -7,6 +7,8 @@ add_subdirectory(libs)
 
 include_directories(include)
 
+add_subdirectory(src)
+
 add_library(dialogue_driver SHARED src/driver.cpp)
 
 add_subdirectory(tests)

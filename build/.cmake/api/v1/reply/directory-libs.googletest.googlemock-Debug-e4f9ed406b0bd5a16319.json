@@ -72,7 +72,7 @@
 				"lib/libgmock.a"
 			],
 			"targetId" : "gmock::@d24f781d804ac047b25e",
-			"targetIndex" : 1,
+			"targetIndex" : 2,
 			"type" : "target"
 		},
 		{
@@ -84,7 +84,7 @@
 				"lib/libgmock_main.a"
 			],
 			"targetId" : "gmock_main::@d24f781d804ac047b25e",
-			"targetIndex" : 2,
+			"targetIndex" : 3,
 			"type" : "target"
 		},
 		{

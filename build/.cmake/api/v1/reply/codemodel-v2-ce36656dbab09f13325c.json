@@ -9,7 +9,8 @@
 					"childIndexes" : 
 					[
 						1,
-						5
+						5,
+						6
 					],
 					"hasInstallRule" : true,
 					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
@@ -21,7 +22,7 @@
 					"source" : ".",
 					"targetIndexes" : 
 					[
-						0
+						1
 					]
 				},
 				{
@@ -63,7 +64,7 @@
 						4
 					],
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-libs.googletest.googlemock-Debug-3c6a0b62b218f0ba70d0.json",
+					"jsonFile" : "directory-libs.googletest.googlemock-Debug-e4f9ed406b0bd5a16319.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.5"
@@ -73,14 +74,14 @@
 					"source" : "libs/googletest/googlemock",
 					"targetIndexes" : 
 					[
-						1,
-						2
+						2,
+						3
 					]
 				},
 				{
 					"build" : "libs/googletest/googletest",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-libs.googletest.googletest-Debug-4dc7927c80217ef309d1.json",
+					"jsonFile" : "directory-libs.googletest.googletest-Debug-efcf1c439977635ce000.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.5"
@@ -90,8 +91,23 @@
 					"source" : "libs/googletest/googletest",
 					"targetIndexes" : 
 					[
-						3,
-						4
+						4,
+						5
+					]
+				},
+				{
+					"build" : "src",
+					"jsonFile" : "directory-src-Debug-c94b7c2814d5a21df52c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src",
+					"targetIndexes" : 
+					[
+						0
 					]
 				},
 				{
@@ -106,7 +122,7 @@
 					"source" : "tests",
 					"targetIndexes" : 
 					[
-						5
+						6
 					]
 				}
 			],
@@ -122,13 +138,15 @@
 					[
 						0,
 						1,
-						5
+						5,
+						6
 					],
 					"name" : "Dialogue-Driver",
 					"targetIndexes" : 
 					[
 						0,
-						5
+						1,
+						6
 					]
 				},
 				{
@@ -156,8 +174,8 @@
 					"parentIndex" : 1,
 					"targetIndexes" : 
 					[
-						1,
-						2
+						2,
+						3
 					]
 				},
 				{
@@ -169,17 +187,24 @@
 					"parentIndex" : 2,
 					"targetIndexes" : 
 					[
-						3,
-						4
+						4,
+						5
 					]
 				}
 			],
 			"targets" : 
 			[
 				{
+					"directoryIndex" : 5,
+					"id" : "Dialogue-Driver::@145eef247bfb46b6828c",
+					"jsonFile" : "target-Dialogue-Driver-Debug-9a149cbab6e627b5a098.json",
+					"name" : "Dialogue-Driver",
+					"projectIndex" : 0
+				},
+				{
 					"directoryIndex" : 0,
 					"id" : "dialogue_driver::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-dialogue_driver-Debug-2a1489de6207fe9b4a45.json",
+					"jsonFile" : "target-dialogue_driver-Debug-0d9699513c685a81c467.json",
 					"name" : "dialogue_driver",
 					"projectIndex" : 0
 				},
@@ -212,7 +237,7 @@
 					"projectIndex" : 3
 				},
 				{
-					"directoryIndex" : 5,
+					"directoryIndex" : 6,
 					"id" : "test_driver::@a44f0ac069e85531cdee",
 					"jsonFile" : "target-test_driver-Debug-6d6925120dd5bdf5a8b7.json",
 					"name" : "test_driver",

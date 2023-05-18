@@ -221,6 +221,9 @@
 			"path" : "libs/googletest/googletest/cmake/gtest_main.pc.in"
 		},
 		{
+			"path" : "src/CMakeLists.txt"
+		},
+		{
 			"path" : "tests/CMakeLists.txt"
 		}
 	],

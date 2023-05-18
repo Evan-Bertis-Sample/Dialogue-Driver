@@ -12,7 +12,7 @@ class StoryState {
 private:
     std::map<std::string, Fact> _facts;
 
-    Fact _FindFact(std::string factName);
+    Fact _FindFact(std::string factName) const;
 public:
     template<typename T>
     bool VerifyFact(std::string factName, std::function<bool(T)>) const;
