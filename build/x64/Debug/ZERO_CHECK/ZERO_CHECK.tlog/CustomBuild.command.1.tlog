@@ -1,0 +1,10 @@
+^D:\DOCUMENTS\CODE\PERSONAL PROJECTS\DIALOGUE-DRIVER\BUILD\CMAKEFILES\BA93CB558F8968AAB2229938A110BDE6\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SD:/Documents/Code/Personal Projects/Dialogue-Driver" "-BD:/Documents/Code/Personal Projects/Dialogue-Driver/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "D:/Documents/Code/Personal Projects/Dialogue-Driver/build/Dialogue-Driver.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

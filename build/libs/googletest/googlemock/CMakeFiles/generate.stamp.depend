@@ -1,0 +1,10 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.26/Modules/CheckCSourceCompiles.cmake
+C:/Program Files/CMake/share/cmake-3.26/Modules/CheckIncludeFile.cmake
+C:/Program Files/CMake/share/cmake-3.26/Modules/CheckLibraryExists.cmake
+C:/Program Files/CMake/share/cmake-3.26/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.26/Modules/FindPackageMessage.cmake
+C:/Program Files/CMake/share/cmake-3.26/Modules/FindThreads.cmake
+D:/Documents/Code/Personal Projects/Dialogue-Driver/libs/googletest/googlemock/CMakeLists.txt
+D:/Documents/Code/Personal Projects/Dialogue-Driver/libs/googletest/googlemock/cmake/gmock.pc.in
+D:/Documents/Code/Personal Projects/Dialogue-Driver/libs/googletest/googlemock/cmake/gmock_main.pc.in

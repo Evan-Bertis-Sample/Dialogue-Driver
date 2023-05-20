@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\Documents\Code\Personal Projects\Dialogue-Driver\src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="D:\Documents\Code\Personal Projects\Dialogue-Driver\build\src\dialogue_driver_obj.dir\$(Configuration)\driver.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\Documents\Code\Personal Projects\Dialogue-Driver\build\src\dialogue_driver_obj.dir\$(Configuration)\fact.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\Documents\Code\Personal Projects\Dialogue-Driver\build\src\dialogue_driver_obj.dir\$(Configuration)\story_state.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Object Libraries">
+      <UniqueIdentifier>{52B0C280-80F5-3331-933B-D3FBDF308702}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

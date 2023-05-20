@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\Documents\Code\Personal Projects\Dialogue-Driver\build\CMakeFiles\dcf58e757c16f2cfa4bb1eb48da2fb63\RUN_TESTS_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{42F0A5A2-EE3A-31CF-85FC-99572DFC4287}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

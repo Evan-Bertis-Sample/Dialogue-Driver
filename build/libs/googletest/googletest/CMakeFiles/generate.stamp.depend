@@ -1,0 +1,18 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.26/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in
+C:/Program Files/CMake/share/cmake-3.26/Modules/CMakePackageConfigHelpers.cmake
+C:/Program Files/CMake/share/cmake-3.26/Modules/CheckCSourceCompiles.cmake
+C:/Program Files/CMake/share/cmake-3.26/Modules/CheckIncludeFile.cmake
+C:/Program Files/CMake/share/cmake-3.26/Modules/CheckLibraryExists.cmake
+C:/Program Files/CMake/share/cmake-3.26/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.26/Modules/FindPackageMessage.cmake
+C:/Program Files/CMake/share/cmake-3.26/Modules/FindPython.cmake
+C:/Program Files/CMake/share/cmake-3.26/Modules/FindPython/Support.cmake
+C:/Program Files/CMake/share/cmake-3.26/Modules/FindThreads.cmake
+C:/Program Files/CMake/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake
+C:/Program Files/CMake/share/cmake-3.26/Modules/WriteBasicConfigVersionFile.cmake
+D:/Documents/Code/Personal Projects/Dialogue-Driver/libs/googletest/googletest/CMakeLists.txt
+D:/Documents/Code/Personal Projects/Dialogue-Driver/libs/googletest/googletest/cmake/Config.cmake.in
+D:/Documents/Code/Personal Projects/Dialogue-Driver/libs/googletest/googletest/cmake/gtest.pc.in
+D:/Documents/Code/Personal Projects/Dialogue-Driver/libs/googletest/googletest/cmake/gtest_main.pc.in
+D:/Documents/Code/Personal Projects/Dialogue-Driver/libs/googletest/googletest/cmake/internal_utils.cmake
