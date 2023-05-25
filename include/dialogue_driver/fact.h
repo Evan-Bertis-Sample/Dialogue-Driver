@@ -1,6 +1,8 @@
 #ifndef FACT_H
 #define FACT_H
 
+#pragma once
+
 #include <string>
 #include <stdexcept>
 #include <iostream>
@@ -21,8 +23,6 @@ private:
         float floatData;
         bool boolData;
         std::string* stringData;
-
-        constexpr _factData(): intData(0) {}
     };
 
     _factData _data;

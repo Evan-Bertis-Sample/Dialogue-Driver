@@ -1,6 +1,9 @@
 #ifndef STORY_STATE_H
 #define STORY_STATE_H
 
+
+#pragma once
+
 #include <map>
 #include <string>
 #include <functional>
@@ -15,7 +18,7 @@ private:
     Fact _FindFact(std::string factName) const;
 public:
     template<typename T>
-    bool VerifyFact(std::string factName, std::function<bool(T)>) const;
+    bool VerifyFact(std::string factName, std::function<bool(T)>& cmpr) const;
 
     template<typename T>
     void UpdateFact(std::string factName, T data);

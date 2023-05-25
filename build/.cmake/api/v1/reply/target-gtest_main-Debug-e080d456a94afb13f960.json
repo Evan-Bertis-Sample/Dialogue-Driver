@@ -86,7 +86,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-g -std=c++14"
+					"fragment" : "-g -std=c++1z"
 				},
 				{
 					"fragment" : "-Wall -Wshadow -Wundef -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers"
@@ -112,7 +112,7 @@
 				[
 					8
 				],
-				"standard" : "14"
+				"standard" : "17"
 			},
 			"sourceIndexes" : 
 			[

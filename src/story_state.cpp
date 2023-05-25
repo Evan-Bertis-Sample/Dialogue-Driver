@@ -1,5 +1,4 @@
 /* story_state.cpp */
-
 #include <map>
 #include <string>
 #include <functional>
@@ -18,7 +17,7 @@ Fact StoryState::_FindFact(std::string factName) const {
 }
 
 template<typename T>
-bool StoryState::VerifyFact(std::string factName, std::function<bool(T)>) const {
+bool StoryState::VerifyFact(std::string factName, std::function<bool(T)>& cmpr) const {
     Fact f = this->_FindFact(factName);
     FACT_TYPE type = Fact::GetFactType<T>(T());
     f.VerifyType(type);

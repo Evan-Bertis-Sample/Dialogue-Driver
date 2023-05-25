@@ -1,5 +1,4 @@
 /* Fact.cpp */
-
 #include <string>
 #include <stdexcept>
 #include <type_traits>
@@ -45,6 +44,8 @@ bool Fact::VerifyType(FACT_TYPE ftype) const {
 
 template<typename T>
 FACT_TYPE Fact::GetFactType(T value) {
+    return INT;
+
     if(std::is_same<T, int>::value) return INT;
     else if (std::is_same<T, float>::value) return FLOAT;
     else if (std::is_same<T, bool>::value) return BOOL;

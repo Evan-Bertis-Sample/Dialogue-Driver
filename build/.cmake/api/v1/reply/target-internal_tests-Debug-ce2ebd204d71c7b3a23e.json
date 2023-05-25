@@ -59,7 +59,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-g -std=gnu++14"
+					"fragment" : "-g -std=gnu++1z"
 				}
 			],
 			"includes" : 
@@ -86,7 +86,7 @@
 				[
 					2
 				],
-				"standard" : "14"
+				"standard" : "17"
 			},
 			"sourceIndexes" : 
 			[

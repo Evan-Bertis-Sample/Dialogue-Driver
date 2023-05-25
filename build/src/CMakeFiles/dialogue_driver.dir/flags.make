@@ -6,5 +6,5 @@ CXX_DEFINES = -Ddialogue_driver_EXPORTS
 
 CXX_INCLUDES = @CMakeFiles/dialogue_driver.dir/includes_CXX.rsp
 
-CXX_FLAGS = -g
+CXX_FLAGS = -g -std=gnu++1z
 
