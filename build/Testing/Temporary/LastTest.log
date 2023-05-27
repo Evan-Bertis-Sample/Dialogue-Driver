@@ -1,3 +1,29 @@
-Start testing: May 24 23:41 Central Daylight Time
+Start testing: May 25 14:07 Central Daylight Time
 ----------------------------------------------------------
-End testing: May 24 23:41 Central Daylight Time
+1/1 Testing: InternalTests
+1/1 Test: InternalTests
+Command: "D:/Documents/Code/Personal Projects/Dialogue-Driver/build/tests/Debug/internal_tests.exe"
+Directory: D:/Documents/Code/Personal Projects/Dialogue-Driver/build/tests
+"InternalTests" start time: May 25 14:07 Central Daylight Time
+Output:
+----------------------------------------------------------
+Running main() from D:\Documents\Code\Personal Projects\Dialogue-Driver\libs\googletest\googletest\src\gtest_main.cc
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TestDriver
+[ RUN      ] TestDriver.DoSomething
+[       OK ] TestDriver.DoSomething (0 ms)
+[----------] 1 test from TestDriver (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.13 sec
+----------------------------------------------------------
+Test Passed.
+"InternalTests" end time: May 25 14:07 Central Daylight Time
+"InternalTests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: May 25 14:07 Central Daylight Time

@@ -1,4 +1,6 @@
 /* Fact.cpp */
+
+#include <iostream>
 #include <string>
 #include <stdexcept>
 #include <type_traits>
@@ -31,7 +33,6 @@ Fact::Fact(T data) {
         default:
             throw std::logic_error("Something went wrong creating a fact");
     }
-
 }
 
 bool Fact::VerifyType(FACT_TYPE ftype) const {

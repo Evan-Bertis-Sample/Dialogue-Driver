@@ -1,2 +1,2 @@
-InternalTests 2 0.0602137
+InternalTests 9 0.0139749
 ---
