@@ -43,8 +43,8 @@
 },
 {
   "directory": "D:/Documents/Code/Personal Projects/Dialogue-Driver/build/tests",
-  "command": "C:/TDM-GCC-64/bin/g++.exe  @CMakeFiles/internal_tests.dir/includes_CXX.rsp -g -std=gnu++1z -o CMakeFiles/internal_tests.dir/internal/test_driver_internal.cpp.obj -c \"D:/Documents/Code/Personal Projects/Dialogue-Driver/tests/internal/test_driver_internal.cpp\"",
-  "file": "D:/Documents/Code/Personal Projects/Dialogue-Driver/tests/internal/test_driver_internal.cpp",
-  "output": "tests/CMakeFiles/internal_tests.dir/internal/test_driver_internal.cpp.obj"
+  "command": "C:/TDM-GCC-64/bin/g++.exe  @CMakeFiles/internal_tests.dir/includes_CXX.rsp -g -std=gnu++1z -o CMakeFiles/internal_tests.dir/internal/fact_tests.cpp.obj -c \"D:/Documents/Code/Personal Projects/Dialogue-Driver/tests/internal/fact_tests.cpp\"",
+  "file": "D:/Documents/Code/Personal Projects/Dialogue-Driver/tests/internal/fact_tests.cpp",
+  "output": "tests/CMakeFiles/internal_tests.dir/internal/fact_tests.cpp.obj"
 }
 ]

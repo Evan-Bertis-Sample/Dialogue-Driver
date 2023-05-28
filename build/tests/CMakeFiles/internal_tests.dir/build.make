@@ -69,24 +69,24 @@ include tests/CMakeFiles/internal_tests.dir/progress.make
 # Include the compile flags for this target's objects.
 include tests/CMakeFiles/internal_tests.dir/flags.make
 
-tests/CMakeFiles/internal_tests.dir/internal/test_driver_internal.cpp.obj: tests/CMakeFiles/internal_tests.dir/flags.make
-tests/CMakeFiles/internal_tests.dir/internal/test_driver_internal.cpp.obj: tests/CMakeFiles/internal_tests.dir/includes_CXX.rsp
-tests/CMakeFiles/internal_tests.dir/internal/test_driver_internal.cpp.obj: D:/Documents/Code/Personal\ Projects/Dialogue-Driver/tests/internal/test_driver_internal.cpp
-tests/CMakeFiles/internal_tests.dir/internal/test_driver_internal.cpp.obj: tests/CMakeFiles/internal_tests.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:/Documents/Code/Personal Projects/Dialogue-Driver/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object tests/CMakeFiles/internal_tests.dir/internal/test_driver_internal.cpp.obj"
-	cd "D:/Documents/Code/Personal Projects/Dialogue-Driver/build/tests" && C:/TDM-GCC-64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tests/CMakeFiles/internal_tests.dir/internal/test_driver_internal.cpp.obj -MF CMakeFiles/internal_tests.dir/internal/test_driver_internal.cpp.obj.d -o CMakeFiles/internal_tests.dir/internal/test_driver_internal.cpp.obj -c "D:/Documents/Code/Personal Projects/Dialogue-Driver/tests/internal/test_driver_internal.cpp"
+tests/CMakeFiles/internal_tests.dir/internal/fact_tests.cpp.obj: tests/CMakeFiles/internal_tests.dir/flags.make
+tests/CMakeFiles/internal_tests.dir/internal/fact_tests.cpp.obj: tests/CMakeFiles/internal_tests.dir/includes_CXX.rsp
+tests/CMakeFiles/internal_tests.dir/internal/fact_tests.cpp.obj: D:/Documents/Code/Personal\ Projects/Dialogue-Driver/tests/internal/fact_tests.cpp
+tests/CMakeFiles/internal_tests.dir/internal/fact_tests.cpp.obj: tests/CMakeFiles/internal_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:/Documents/Code/Personal Projects/Dialogue-Driver/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object tests/CMakeFiles/internal_tests.dir/internal/fact_tests.cpp.obj"
+	cd "D:/Documents/Code/Personal Projects/Dialogue-Driver/build/tests" && C:/TDM-GCC-64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tests/CMakeFiles/internal_tests.dir/internal/fact_tests.cpp.obj -MF CMakeFiles/internal_tests.dir/internal/fact_tests.cpp.obj.d -o CMakeFiles/internal_tests.dir/internal/fact_tests.cpp.obj -c "D:/Documents/Code/Personal Projects/Dialogue-Driver/tests/internal/fact_tests.cpp"
 
-tests/CMakeFiles/internal_tests.dir/internal/test_driver_internal.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/internal_tests.dir/internal/test_driver_internal.cpp.i"
-	cd "D:/Documents/Code/Personal Projects/Dialogue-Driver/build/tests" && C:/TDM-GCC-64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:/Documents/Code/Personal Projects/Dialogue-Driver/tests/internal/test_driver_internal.cpp" > CMakeFiles/internal_tests.dir/internal/test_driver_internal.cpp.i
+tests/CMakeFiles/internal_tests.dir/internal/fact_tests.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/internal_tests.dir/internal/fact_tests.cpp.i"
+	cd "D:/Documents/Code/Personal Projects/Dialogue-Driver/build/tests" && C:/TDM-GCC-64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:/Documents/Code/Personal Projects/Dialogue-Driver/tests/internal/fact_tests.cpp" > CMakeFiles/internal_tests.dir/internal/fact_tests.cpp.i
 
-tests/CMakeFiles/internal_tests.dir/internal/test_driver_internal.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/internal_tests.dir/internal/test_driver_internal.cpp.s"
-	cd "D:/Documents/Code/Personal Projects/Dialogue-Driver/build/tests" && C:/TDM-GCC-64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:/Documents/Code/Personal Projects/Dialogue-Driver/tests/internal/test_driver_internal.cpp" -o CMakeFiles/internal_tests.dir/internal/test_driver_internal.cpp.s
+tests/CMakeFiles/internal_tests.dir/internal/fact_tests.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/internal_tests.dir/internal/fact_tests.cpp.s"
+	cd "D:/Documents/Code/Personal Projects/Dialogue-Driver/build/tests" && C:/TDM-GCC-64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:/Documents/Code/Personal Projects/Dialogue-Driver/tests/internal/fact_tests.cpp" -o CMakeFiles/internal_tests.dir/internal/fact_tests.cpp.s
 
 # Object files for target internal_tests
 internal_tests_OBJECTS = \
-"CMakeFiles/internal_tests.dir/internal/test_driver_internal.cpp.obj"
+"CMakeFiles/internal_tests.dir/internal/fact_tests.cpp.obj"
 
 # External object files for target internal_tests
 internal_tests_EXTERNAL_OBJECTS = \
@@ -94,7 +94,7 @@ internal_tests_EXTERNAL_OBJECTS = \
 "D:/Documents/Code/Personal Projects/Dialogue-Driver/build/src/CMakeFiles/dialogue_driver_obj.dir/fact.cpp.obj" \
 "D:/Documents/Code/Personal Projects/Dialogue-Driver/build/src/CMakeFiles/dialogue_driver_obj.dir/story_state.cpp.obj"
 
-tests/internal_tests.exe: tests/CMakeFiles/internal_tests.dir/internal/test_driver_internal.cpp.obj
+tests/internal_tests.exe: tests/CMakeFiles/internal_tests.dir/internal/fact_tests.cpp.obj
 tests/internal_tests.exe: src/CMakeFiles/dialogue_driver_obj.dir/driver.cpp.obj
 tests/internal_tests.exe: src/CMakeFiles/dialogue_driver_obj.dir/fact.cpp.obj
 tests/internal_tests.exe: src/CMakeFiles/dialogue_driver_obj.dir/story_state.cpp.obj

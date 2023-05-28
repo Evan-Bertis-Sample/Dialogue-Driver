@@ -185,29 +185,29 @@ internal_tests/fast:
 	cd "D:/Documents/Code/Personal Projects/Dialogue-Driver/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/internal_tests.dir/build.make tests/CMakeFiles/internal_tests.dir/build
 .PHONY : internal_tests/fast
 
-internal/test_driver_internal.obj: internal/test_driver_internal.cpp.obj
-.PHONY : internal/test_driver_internal.obj
+internal/fact_tests.obj: internal/fact_tests.cpp.obj
+.PHONY : internal/fact_tests.obj
 
 # target to build an object file
-internal/test_driver_internal.cpp.obj:
-	cd "D:/Documents/Code/Personal Projects/Dialogue-Driver/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/internal_tests.dir/build.make tests/CMakeFiles/internal_tests.dir/internal/test_driver_internal.cpp.obj
-.PHONY : internal/test_driver_internal.cpp.obj
+internal/fact_tests.cpp.obj:
+	cd "D:/Documents/Code/Personal Projects/Dialogue-Driver/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/internal_tests.dir/build.make tests/CMakeFiles/internal_tests.dir/internal/fact_tests.cpp.obj
+.PHONY : internal/fact_tests.cpp.obj
 
-internal/test_driver_internal.i: internal/test_driver_internal.cpp.i
-.PHONY : internal/test_driver_internal.i
+internal/fact_tests.i: internal/fact_tests.cpp.i
+.PHONY : internal/fact_tests.i
 
 # target to preprocess a source file
-internal/test_driver_internal.cpp.i:
-	cd "D:/Documents/Code/Personal Projects/Dialogue-Driver/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/internal_tests.dir/build.make tests/CMakeFiles/internal_tests.dir/internal/test_driver_internal.cpp.i
-.PHONY : internal/test_driver_internal.cpp.i
+internal/fact_tests.cpp.i:
+	cd "D:/Documents/Code/Personal Projects/Dialogue-Driver/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/internal_tests.dir/build.make tests/CMakeFiles/internal_tests.dir/internal/fact_tests.cpp.i
+.PHONY : internal/fact_tests.cpp.i
 
-internal/test_driver_internal.s: internal/test_driver_internal.cpp.s
-.PHONY : internal/test_driver_internal.s
+internal/fact_tests.s: internal/fact_tests.cpp.s
+.PHONY : internal/fact_tests.s
 
 # target to generate assembly for a file
-internal/test_driver_internal.cpp.s:
-	cd "D:/Documents/Code/Personal Projects/Dialogue-Driver/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/internal_tests.dir/build.make tests/CMakeFiles/internal_tests.dir/internal/test_driver_internal.cpp.s
-.PHONY : internal/test_driver_internal.cpp.s
+internal/fact_tests.cpp.s:
+	cd "D:/Documents/Code/Personal Projects/Dialogue-Driver/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/internal_tests.dir/build.make tests/CMakeFiles/internal_tests.dir/internal/fact_tests.cpp.s
+.PHONY : internal/fact_tests.cpp.s
 
 # Help Target
 help:
@@ -223,9 +223,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... test"
 	@echo "... internal_tests"
-	@echo "... internal/test_driver_internal.obj"
-	@echo "... internal/test_driver_internal.i"
-	@echo "... internal/test_driver_internal.s"
+	@echo "... internal/fact_tests.obj"
+	@echo "... internal/fact_tests.i"
+	@echo "... internal/fact_tests.s"
 .PHONY : help
 
 
