@@ -6,280 +6,249 @@ libs/googletest/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.obj: D:/Documen
   D:/Documents/Code/Personal\ Projects/Dialogue-Driver/libs/googletest/googlemock/include/gmock/gmock-actions.h \
   C:/TDM-GCC-64/x86_64-w64-mingw32/include/errno.h \
   C:/TDM-GCC-64/x86_64-w64-mingw32/include/crtdefs.h \
+  C:/TDM-GCC-64/x86_64-w64-mingw32/include/corecrt.h \
   C:/TDM-GCC-64/x86_64-w64-mingw32/include/_mingw.h \
   C:/TDM-GCC-64/x86_64-w64-mingw32/include/_mingw_mac.h \
   C:/TDM-GCC-64/x86_64-w64-mingw32/include/_mingw_secapi.h \
   C:/TDM-GCC-64/x86_64-w64-mingw32/include/vadefs.h \
-  C:/TDM-GCC-64/x86_64-w64-mingw32/include/sdks/_mingw_directx.h \
   C:/TDM-GCC-64/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/algorithm \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/utility \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/x86_64-w64-mingw32/bits/os_defines.h \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/x86_64-w64-mingw32/bits/cpu_defines.h \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/stl_relops.h \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/stl_pair.h \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/move.h \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/concept_check.h \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/type_traits \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/initializer_list \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/stl_algobase.h \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/functexcept.h \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/exception_defines.h \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/cpp_type_traits.h \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/ext/type_traits.h \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/ext/numeric_traits.h \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/stl_iterator_base_types.h \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/stl_iterator_base_funcs.h \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/debug/debug.h \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/stl_iterator.h \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/ptr_traits.h \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/predefined_ops.h \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/stl_algo.h \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/cstdlib \
+  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/algorithm \
+  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/utility \
+  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
+  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/x86_64-w64-mingw32/bits/os_defines.h \
+  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/x86_64-w64-mingw32/bits/cpu_defines.h \
+  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/pstl/pstl_config.h \
+  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/stl_relops.h \
+  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/stl_pair.h \
+  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/move.h \
+  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/type_traits \
+  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/initializer_list \
+  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/stl_algobase.h \
+  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/functexcept.h \
+  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/exception_defines.h \
+  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/cpp_type_traits.h \
+  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/ext/type_traits.h \
+  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/ext/numeric_traits.h \
+  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/stl_iterator_base_types.h \
+  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/stl_iterator_base_funcs.h \
+  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/concept_check.h \
+  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/debug/assertions.h \
+  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/stl_iterator.h \
+  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/ptr_traits.h \
+  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/debug/debug.h \
+  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/predefined_ops.h \
+  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/stl_algo.h \
+  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/cstdlib \
   C:/TDM-GCC-64/x86_64-w64-mingw32/include/stdlib.h \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include-fixed/limits.h \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include-fixed/syslimits.h \
+  C:/TDM-GCC-64/x86_64-w64-mingw32/include/corecrt_wstdlib.h \
+  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include-fixed/limits.h \
+  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include-fixed/syslimits.h \
   C:/TDM-GCC-64/x86_64-w64-mingw32/include/limits.h \
   C:/TDM-GCC-64/x86_64-w64-mingw32/include/sec_api/stdlib_s.h \
+  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/stdlib.h \
   C:/TDM-GCC-64/x86_64-w64-mingw32/include/malloc.h \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/algorithmfwd.h \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/stl_heap.h \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/stl_tempbuf.h \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/stl_construct.h \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/new \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/exception \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/atomic_lockfree_defines.h \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/exception_ptr.h \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/nested_exception.h \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/ext/alloc_traits.h \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/alloc_traits.h \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/memoryfwd.h \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/random \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/cmath \
-  C:/TDM-GCC-64/x86_64-w64-mingw32/include/math.h \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/string \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/stringfwd.h \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/char_traits.h \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/postypes.h \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/cwchar \
+  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/std_abs.h \
+  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/algorithmfwd.h \
+  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/stl_heap.h \
+  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/stl_tempbuf.h \
+  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/stl_construct.h \
+  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/new \
+  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/exception \
+  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/exception.h \
+  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/exception_ptr.h \
+  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/cxxabi_init_exception.h \
+  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/stddef.h \
+  C:/TDM-GCC-64/x86_64-w64-mingw32/include/stddef.h \
+  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/typeinfo \
+  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/hash_bytes.h \
+  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/nested_exception.h \
+  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/uniform_int_dist.h \
+  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/limits \
+  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/pstl/glue_algorithm_defs.h \
+  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/functional \
+  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/stl_function.h \
+  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/backward/binders.h \
+  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/tuple \
+  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/array \
+  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/range_access.h \
+  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/iterator_concepts.h \
+  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/concepts \
+  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/range_cmp.h \
+  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/uses_allocator.h \
+  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/invoke.h \
+  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/functional_hash.h \
+  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/refwrap.h \
+  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/std_function.h \
+  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/unordered_map \
+  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/allocator.h \
+  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/x86_64-w64-mingw32/bits/c++allocator.h \
+  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/ext/new_allocator.h \
+  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/memoryfwd.h \
+  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/ext/alloc_traits.h \
+  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/alloc_traits.h \
+  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/ext/aligned_buffer.h \
+  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/hashtable.h \
+  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/hashtable_policy.h \
+  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/node_handle.h \
+  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/optional \
+  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/enable_special_members.h \
+  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/unordered_map.h \
+  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/erase_if.h \
+  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/vector \
+  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/stl_uninitialized.h \
+  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/stl_vector.h \
+  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/stl_bvector.h \
+  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/vector.tcc \
+  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/pstl/execution_defs.h \
+  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/memory \
+  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/stl_raw_storage_iter.h \
+  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/ranges_uninitialized.h \
+  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/iosfwd \
+  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/stringfwd.h \
+  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/postypes.h \
+  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/cwchar \
   C:/TDM-GCC-64/x86_64-w64-mingw32/include/wchar.h \
-  C:/TDM-GCC-64/x86_64-w64-mingw32/include/_mingw_print_push.h \
+  C:/TDM-GCC-64/x86_64-w64-mingw32/include/corecrt_stdio_config.h \
   C:/TDM-GCC-64/x86_64-w64-mingw32/include/_mingw_off_t.h \
   C:/TDM-GCC-64/x86_64-w64-mingw32/include/_mingw_stat64.h \
   C:/TDM-GCC-64/x86_64-w64-mingw32/include/swprintf.inl \
   C:/TDM-GCC-64/x86_64-w64-mingw32/include/sec_api/wchar_s.h \
-  C:/TDM-GCC-64/x86_64-w64-mingw32/include/_mingw_print_pop.h \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/cstdint \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/stdint.h \
-  C:/TDM-GCC-64/x86_64-w64-mingw32/include/stdint.h \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/stddef.h \
-  C:/TDM-GCC-64/x86_64-w64-mingw32/include/stddef.h \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/allocator.h \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/x86_64-w64-mingw32/bits/c++allocator.h \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/ext/new_allocator.h \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/localefwd.h \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/x86_64-w64-mingw32/bits/c++locale.h \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/clocale \
-  C:/TDM-GCC-64/x86_64-w64-mingw32/include/locale.h \
-  C:/TDM-GCC-64/x86_64-w64-mingw32/include/stdio.h \
-  C:/TDM-GCC-64/x86_64-w64-mingw32/include/sec_api/stdio_s.h \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/iosfwd \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/cctype \
-  C:/TDM-GCC-64/x86_64-w64-mingw32/include/ctype.h \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/ostream_insert.h \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/cxxabi_forced.h \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/stl_function.h \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/backward/binders.h \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/range_access.h \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/basic_string.h \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/ext/atomicity.h \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/x86_64-w64-mingw32/bits/gthr.h \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/x86_64-w64-mingw32/bits/gthr-default.h \
+  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/ext/atomicity.h \
+  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/x86_64-w64-mingw32/bits/gthr.h \
+  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/x86_64-w64-mingw32/bits/gthr-default.h \
   C:/TDM-GCC-64/x86_64-w64-mingw32/include/pthread.h \
+  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/stdint.h \
+  C:/TDM-GCC-64/x86_64-w64-mingw32/include/stdint.h \
   C:/TDM-GCC-64/x86_64-w64-mingw32/include/sys/types.h \
   C:/TDM-GCC-64/x86_64-w64-mingw32/include/process.h \
+  C:/TDM-GCC-64/x86_64-w64-mingw32/include/corecrt_startup.h \
   C:/TDM-GCC-64/x86_64-w64-mingw32/include/signal.h \
   C:/TDM-GCC-64/x86_64-w64-mingw32/include/pthread_signal.h \
   C:/TDM-GCC-64/x86_64-w64-mingw32/include/sys/timeb.h \
   C:/TDM-GCC-64/x86_64-w64-mingw32/include/sec_api/sys/timeb_s.h \
   C:/TDM-GCC-64/x86_64-w64-mingw32/include/pthread_compat.h \
   C:/TDM-GCC-64/x86_64-w64-mingw32/include/pthread_unistd.h \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/x86_64-w64-mingw32/bits/atomic_word.h \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/ext/string_conversions.h \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/cstdio \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/cerrno \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/functional_hash.h \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/hash_bytes.h \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/basic_string.tcc \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/limits \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/random.h \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/vector \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/stl_uninitialized.h \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/stl_vector.h \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/stl_bvector.h \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/vector.tcc \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/x86_64-w64-mingw32/bits/opt_random.h \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/x86intrin.h \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/ia32intrin.h \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/mmintrin.h \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/xmmintrin.h \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/mm_malloc.h \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/emmintrin.h \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/pmmintrin.h \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/tmmintrin.h \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/ammintrin.h \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/smmintrin.h \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/popcntintrin.h \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/wmmintrin.h \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/immintrin.h \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/avxintrin.h \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/avx2intrin.h \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/avx512fintrin.h \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/avx512erintrin.h \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/avx512pfintrin.h \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/avx512cdintrin.h \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/avx512vlintrin.h \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/avx512bwintrin.h \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/avx512dqintrin.h \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/avx512vlbwintrin.h \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/avx512vldqintrin.h \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/avx512ifmaintrin.h \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/avx512ifmavlintrin.h \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/avx512vbmiintrin.h \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/avx512vbmivlintrin.h \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/shaintrin.h \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/lzcntintrin.h \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/bmiintrin.h \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/bmi2intrin.h \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/fmaintrin.h \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/f16cintrin.h \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/rtmintrin.h \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/xtestintrin.h \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/mm3dnow.h \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/prfchwintrin.h \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/fma4intrin.h \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/xopintrin.h \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/lwpintrin.h \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/tbmintrin.h \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/rdseedintrin.h \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/fxsrintrin.h \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/xsaveintrin.h \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/xsaveoptintrin.h \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/adxintrin.h \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/clwbintrin.h \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/pcommitintrin.h \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/clflushoptintrin.h \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/xsavesintrin.h \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/xsavecintrin.h \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/random.tcc \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/numeric \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/stl_numeric.h \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/functional \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/typeinfo \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/tuple \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/array \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/stdexcept \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/uses_allocator.h \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/memory \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/stl_raw_storage_iter.h \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/ext/concurrence.h \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/unique_ptr.h \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/shared_ptr.h \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/shared_ptr_base.h \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/allocated_ptr.h \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/ext/aligned_buffer.h \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/shared_ptr_atomic.h \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/atomic_base.h \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/backward/auto_ptr.h \
+  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/x86_64-w64-mingw32/bits/atomic_word.h \
+  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/ext/concurrence.h \
+  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/unique_ptr.h \
+  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/shared_ptr.h \
+  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/shared_ptr_base.h \
+  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/allocated_ptr.h \
+  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/shared_ptr_atomic.h \
+  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/atomic_base.h \
+  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/atomic_lockfree_defines.h \
+  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/backward/auto_ptr.h \
+  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/cstdint \
+  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/pstl/glue_memory_defs.h \
+  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/string \
+  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/char_traits.h \
+  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/localefwd.h \
+  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/x86_64-w64-mingw32/bits/c++locale.h \
+  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/clocale \
+  C:/TDM-GCC-64/x86_64-w64-mingw32/include/locale.h \
+  C:/TDM-GCC-64/x86_64-w64-mingw32/include/stdio.h \
+  C:/TDM-GCC-64/x86_64-w64-mingw32/include/sec_api/stdio_s.h \
+  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/cctype \
+  C:/TDM-GCC-64/x86_64-w64-mingw32/include/ctype.h \
+  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/ostream_insert.h \
+  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/cxxabi_forced.h \
+  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/basic_string.h \
+  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/string_view \
+  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/string_view.tcc \
+  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/ext/string_conversions.h \
+  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/cstdio \
+  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/cerrno \
+  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/charconv.h \
+  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/basic_string.tcc \
   D:/Documents/Code/Personal\ Projects/Dialogue-Driver/libs/googletest/googlemock/include/gmock/internal/gmock-internal-utils.h \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/ostream \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/ios \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/ios_base.h \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/locale_classes.h \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/locale_classes.tcc \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/system_error \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/x86_64-w64-mingw32/bits/error_constants.h \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/streambuf \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/streambuf.tcc \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/basic_ios.h \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/locale_facets.h \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/cwctype \
+  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/ostream \
+  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/ios \
+  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/ios_base.h \
+  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/locale_classes.h \
+  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/locale_classes.tcc \
+  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/system_error \
+  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/x86_64-w64-mingw32/bits/error_constants.h \
+  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/stdexcept \
+  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/streambuf \
+  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/streambuf.tcc \
+  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/basic_ios.h \
+  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/locale_facets.h \
+  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/cwctype \
   C:/TDM-GCC-64/x86_64-w64-mingw32/include/wctype.h \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/x86_64-w64-mingw32/bits/ctype_base.h \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/streambuf_iterator.h \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/x86_64-w64-mingw32/bits/ctype_inline.h \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/locale_facets.tcc \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/basic_ios.tcc \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/ostream.tcc \
+  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/x86_64-w64-mingw32/bits/ctype_base.h \
+  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/streambuf_iterator.h \
+  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/x86_64-w64-mingw32/bits/ctype_inline.h \
+  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/locale_facets.tcc \
+  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/basic_ios.tcc \
+  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/ostream.tcc \
   D:/Documents/Code/Personal\ Projects/Dialogue-Driver/libs/googletest/googlemock/include/gmock/internal/gmock-port.h \
   C:/TDM-GCC-64/x86_64-w64-mingw32/include/assert.h \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/iostream \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/istream \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/istream.tcc \
+  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/iostream \
+  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/istream \
+  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/istream.tcc \
   D:/Documents/Code/Personal\ Projects/Dialogue-Driver/libs/googletest/googlemock/include/gmock/internal/custom/gmock-port.h \
   D:/Documents/Code/Personal\ Projects/Dialogue-Driver/libs/googletest/googletest/include/gtest/internal/gtest-port.h \
   C:/TDM-GCC-64/x86_64-w64-mingw32/include/string.h \
   C:/TDM-GCC-64/x86_64-w64-mingw32/include/sec_api/string_s.h \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/locale \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/locale_facets_nonio.h \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/ctime \
+  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/locale \
+  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/locale_facets_nonio.h \
+  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/ctime \
   C:/TDM-GCC-64/x86_64-w64-mingw32/include/time.h \
   C:/TDM-GCC-64/x86_64-w64-mingw32/include/_timeval.h \
   C:/TDM-GCC-64/x86_64-w64-mingw32/include/pthread_time.h \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/x86_64-w64-mingw32/bits/time_members.h \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/x86_64-w64-mingw32/bits/messages_members.h \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/codecvt.h \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/locale_facets_nonio.tcc \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/locale_conv.h \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/stringfwd.h \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/allocator.h \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/codecvt.h \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/unique_ptr.h \
+  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/x86_64-w64-mingw32/bits/time_members.h \
+  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/x86_64-w64-mingw32/bits/messages_members.h \
+  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/codecvt.h \
+  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/locale_facets_nonio.tcc \
+  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/locale_conv.h \
   C:/TDM-GCC-64/x86_64-w64-mingw32/include/sys/stat.h \
   C:/TDM-GCC-64/x86_64-w64-mingw32/include/io.h \
-  C:/TDM-GCC-64/x86_64-w64-mingw32/include/sec_api/io_s.h \
   D:/Documents/Code/Personal\ Projects/Dialogue-Driver/libs/googletest/googletest/include/gtest/internal/custom/gtest-port.h \
   D:/Documents/Code/Personal\ Projects/Dialogue-Driver/libs/googletest/googletest/include/gtest/internal/gtest-port-arch.h \
   C:/TDM-GCC-64/x86_64-w64-mingw32/include/direct.h \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/condition_variable \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/chrono \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/ratio \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/parse_numbers.h \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/mutex \
+  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/condition_variable \
+  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/chrono \
+  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/ratio \
+  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/parse_numbers.h \
+  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/std_mutex.h \
+  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/unique_lock.h \
+  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/mutex \
+  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/any \
+  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/variant \
   D:/Documents/Code/Personal\ Projects/Dialogue-Driver/libs/googletest/googletest/include/gtest/gtest.h \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/cstddef \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/iomanip \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/sstream \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/sstream.tcc \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/set \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/stl_tree.h \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/stl_set.h \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/stl_multiset.h \
+  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/cstddef \
+  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/iomanip \
+  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/quoted_string.h \
+  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/sstream \
+  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/sstream.tcc \
+  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/set \
+  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/stl_tree.h \
+  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/stl_set.h \
+  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/stl_multiset.h \
   D:/Documents/Code/Personal\ Projects/Dialogue-Driver/libs/googletest/googletest/include/gtest/gtest-assertion-result.h \
   D:/Documents/Code/Personal\ Projects/Dialogue-Driver/libs/googletest/googletest/include/gtest/gtest-message.h \
   D:/Documents/Code/Personal\ Projects/Dialogue-Driver/libs/googletest/googletest/include/gtest/gtest-death-test.h \
   D:/Documents/Code/Personal\ Projects/Dialogue-Driver/libs/googletest/googletest/include/gtest/internal/gtest-death-test-internal.h \
   D:/Documents/Code/Personal\ Projects/Dialogue-Driver/libs/googletest/googletest/include/gtest/gtest-matchers.h \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/atomic \
+  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/atomic \
   D:/Documents/Code/Personal\ Projects/Dialogue-Driver/libs/googletest/googletest/include/gtest/gtest-printers.h \
   D:/Documents/Code/Personal\ Projects/Dialogue-Driver/libs/googletest/googletest/include/gtest/internal/gtest-internal.h \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/float.h \
+  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/float.h \
   C:/TDM-GCC-64/x86_64-w64-mingw32/include/float.h \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/map \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/stl_map.h \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/stl_multimap.h \
+  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/map \
+  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/stl_map.h \
+  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/stl_multimap.h \
   D:/Documents/Code/Personal\ Projects/Dialogue-Driver/libs/googletest/googletest/include/gtest/internal/gtest-filepath.h \
   D:/Documents/Code/Personal\ Projects/Dialogue-Driver/libs/googletest/googletest/include/gtest/internal/gtest-string.h \
   D:/Documents/Code/Personal\ Projects/Dialogue-Driver/libs/googletest/googletest/include/gtest/internal/gtest-type-util.h \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/cxxabi.h \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/x86_64-w64-mingw32/bits/cxxabi_tweaks.h \
+  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/cxxabi.h \
+  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/x86_64-w64-mingw32/bits/cxxabi_tweaks.h \
   D:/Documents/Code/Personal\ Projects/Dialogue-Driver/libs/googletest/googletest/include/gtest/internal/custom/gtest-printers.h \
   D:/Documents/Code/Personal\ Projects/Dialogue-Driver/libs/googletest/googletest/include/gtest/gtest-param-test.h \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/iterator \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/stream_iterator.h \
+  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/iterator \
+  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/stream_iterator.h \
   D:/Documents/Code/Personal\ Projects/Dialogue-Driver/libs/googletest/googletest/include/gtest/internal/gtest-param-util.h \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/cassert \
+  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/cassert \
   D:/Documents/Code/Personal\ Projects/Dialogue-Driver/libs/googletest/googletest/include/gtest/gtest-test-part.h \
   D:/Documents/Code/Personal\ Projects/Dialogue-Driver/libs/googletest/googletest/include/gtest/gtest-typed-test.h \
   D:/Documents/Code/Personal\ Projects/Dialogue-Driver/libs/googletest/googletest/include/gtest/gtest_pred_impl.h \
@@ -289,6 +258,21 @@ libs/googletest/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.obj: D:/Documen
   D:/Documents/Code/Personal\ Projects/Dialogue-Driver/libs/googletest/googlemock/include/gmock/gmock-function-mocker.h \
   D:/Documents/Code/Personal\ Projects/Dialogue-Driver/libs/googletest/googlemock/include/gmock/gmock-spec-builders.h \
   D:/Documents/Code/Personal\ Projects/Dialogue-Driver/libs/googletest/googlemock/include/gmock/gmock-matchers.h \
+  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/cmath \
+  C:/TDM-GCC-64/x86_64-w64-mingw32/include/math.h \
+  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/specfun.h \
+  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/tr1/gamma.tcc \
+  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/tr1/special_function_util.h \
+  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/tr1/bessel_function.tcc \
+  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/tr1/beta_function.tcc \
+  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/tr1/ell_integral.tcc \
+  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/tr1/exp_integral.tcc \
+  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/tr1/hypergeometric.tcc \
+  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/tr1/legendre_function.tcc \
+  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/tr1/modified_bessel_func.tcc \
+  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/tr1/poly_hermite.tcc \
+  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/tr1/poly_laguerre.tcc \
+  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/tr1/riemann_zeta.tcc \
   D:/Documents/Code/Personal\ Projects/Dialogue-Driver/libs/googletest/googlemock/include/gmock/internal/custom/gmock-matchers.h \
   D:/Documents/Code/Personal\ Projects/Dialogue-Driver/libs/googletest/googlemock/include/gmock/gmock-more-actions.h \
   D:/Documents/Code/Personal\ Projects/Dialogue-Driver/libs/googletest/googlemock/include/gmock/internal/custom/gmock-generated-actions.h \
@@ -296,189 +280,297 @@ libs/googletest/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.obj: D:/Documen
   D:/Documents/Code/Personal\ Projects/Dialogue-Driver/libs/googletest/googlemock/include/gmock/gmock-nice-strict.h \
   D:/Documents/Code/Personal\ Projects/Dialogue-Driver/libs/googletest/googlemock/src/gmock-cardinalities.cc \
   D:/Documents/Code/Personal\ Projects/Dialogue-Driver/libs/googletest/googlemock/src/gmock-internal-utils.cc \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/cstring \
+  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/cstring \
   D:/Documents/Code/Personal\ Projects/Dialogue-Driver/libs/googletest/googlemock/src/gmock-matchers.cc \
   D:/Documents/Code/Personal\ Projects/Dialogue-Driver/libs/googletest/googlemock/src/gmock-spec-builders.cc \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/unordered_map \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/hashtable.h \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/hashtable_policy.h \
-  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/unordered_map.h \
   D:/Documents/Code/Personal\ Projects/Dialogue-Driver/libs/googletest/googlemock/src/gmock.cc
 
 
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/cxxabi_init_exception.h:
+
+D:/Documents/Code/Personal\ Projects/Dialogue-Driver/libs/googletest/googletest/include/gtest/internal/gtest-filepath.h:
+
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/stl_iterator_base_types.h:
+
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/pstl/execution_defs.h:
+
+C:/TDM-GCC-64/x86_64-w64-mingw32/include/corecrt.h:
+
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/exception_defines.h:
+
+C:/TDM-GCC-64/x86_64-w64-mingw32/include/stddef.h:
+
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/tr1/modified_bessel_func.tcc:
+
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/stl_heap.h:
+
 D:/Documents/Code/Personal\ Projects/Dialogue-Driver/libs/googletest/googlemock/include/gmock/gmock.h:
+
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/debug/assertions.h:
+
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/hash_bytes.h:
+
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/stl_iterator.h:
 
 D:/Documents/Code/Personal\ Projects/Dialogue-Driver/libs/googletest/googlemock/src/gmock-all.cc:
 
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include-fixed/limits.h:
-
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/codecvt.h:
-
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/exception:
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/exception_ptr.h:
 
 C:/TDM-GCC-64/x86_64-w64-mingw32/include/errno.h:
 
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/char_traits.h:
-
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/backward/binders.h:
-
 D:/Documents/Code/Personal\ Projects/Dialogue-Driver/libs/googletest/googlemock/include/gmock/gmock-actions.h:
-
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/mmintrin.h:
-
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/new:
-
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/functexcept.h:
-
-C:/TDM-GCC-64/x86_64-w64-mingw32/include/sdks/_mingw_directx.h:
 
 C:/TDM-GCC-64/x86_64-w64-mingw32/include/crtdefs.h:
 
 C:/TDM-GCC-64/x86_64-w64-mingw32/include/sec_api/stdlib_s.h:
 
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/functexcept.h:
+
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/concept_check.h:
+
 C:/TDM-GCC-64/x86_64-w64-mingw32/include/_mingw_mac.h:
 
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/stream_iterator.h:
+
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/nested_exception.h:
+
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/stl_algo.h:
+
 C:/TDM-GCC-64/x86_64-w64-mingw32/include/_mingw.h:
+
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/pstl/glue_algorithm_defs.h:
 
 C:/TDM-GCC-64/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h:
 
 C:/TDM-GCC-64/x86_64-w64-mingw32/include/_mingw_secapi.h:
 
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/cxxabi_forced.h:
+
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/new:
+
 C:/TDM-GCC-64/x86_64-w64-mingw32/include/vadefs.h:
 
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/algorithm:
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/algorithm:
 
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/utility:
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/utility:
 
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/x86_64-w64-mingw32/bits/c++config.h:
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/limits:
 
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/xtestintrin.h:
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/atomic_base.h:
 
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/x86_64-w64-mingw32/bits/os_defines.h:
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/x86_64-w64-mingw32/bits/c++config.h:
 
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/move.h:
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/pstl/pstl_config.h:
 
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/x86_64-w64-mingw32/bits/cpu_defines.h:
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/x86_64-w64-mingw32/bits/os_defines.h:
 
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/iostream:
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/x86_64-w64-mingw32/bits/cpu_defines.h:
 
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/stl_tempbuf.h:
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/tr1/poly_laguerre.tcc:
 
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/stl_relops.h:
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/uniform_int_dist.h:
 
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/stl_pair.h:
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/typeinfo:
 
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/locale_facets.h:
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/stl_relops.h:
 
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/concept_check.h:
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/std_function.h:
 
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/type_traits:
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/exception:
 
-C:/TDM-GCC-64/x86_64-w64-mingw32/include/assert.h:
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/stl_pair.h:
 
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/string:
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/move.h:
 
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/initializer_list:
+D:/Documents/Code/Personal\ Projects/Dialogue-Driver/libs/googletest/googlemock/src/gmock-spec-builders.cc:
 
-C:/TDM-GCC-64/x86_64-w64-mingw32/include/math.h:
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/hashtable_policy.h:
 
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/ia32intrin.h:
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/type_traits:
 
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/stl_algobase.h:
+C:/TDM-GCC-64/x86_64-w64-mingw32/include/corecrt_wstdlib.h:
 
-C:/TDM-GCC-64/x86_64-w64-mingw32/include/_mingw_print_push.h:
+C:/TDM-GCC-64/x86_64-w64-mingw32/include/corecrt_startup.h:
 
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/exception_defines.h:
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/initializer_list:
 
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/cpp_type_traits.h:
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/range_access.h:
 
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/ext/type_traits.h:
-
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/smmintrin.h:
-
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/stl_iterator.h:
-
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/cmath:
-
-D:/Documents/Code/Personal\ Projects/Dialogue-Driver/libs/googletest/googletest/include/gtest/internal/custom/gtest-printers.h:
-
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/avx512vbmivlintrin.h:
-
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/ext/numeric_traits.h:
-
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/stl_iterator_base_types.h:
-
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/stl_iterator_base_funcs.h:
-
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/ext/alloc_traits.h:
-
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/avxintrin.h:
-
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/exception_ptr.h:
-
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/x86_64-w64-mingw32/bits/c++allocator.h:
-
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/debug/debug.h:
-
-D:/Documents/Code/Personal\ Projects/Dialogue-Driver/libs/googletest/googletest/include/gtest/internal/custom/gtest-port.h:
-
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/ptr_traits.h:
-
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/predefined_ops.h:
-
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/avx512ifmaintrin.h:
-
-C:/TDM-GCC-64/x86_64-w64-mingw32/include/sys/timeb.h:
-
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/stl_algo.h:
-
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/memoryfwd.h:
-
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/cstdlib:
-
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/stringfwd.h:
-
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/functional_hash.h:
-
-C:/TDM-GCC-64/x86_64-w64-mingw32/include/limits.h:
-
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/xopintrin.h:
-
-C:/TDM-GCC-64/x86_64-w64-mingw32/include/stdlib.h:
-
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/stl_multimap.h:
-
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include-fixed/syslimits.h:
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/stl_algobase.h:
 
 C:/TDM-GCC-64/x86_64-w64-mingw32/include/_mingw_stat64.h:
 
 C:/TDM-GCC-64/x86_64-w64-mingw32/include/malloc.h:
 
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/ext/aligned_buffer.h:
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/functional_hash.h:
 
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/algorithmfwd.h:
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/cpp_type_traits.h:
 
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/stl_heap.h:
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/ext/type_traits.h:
 
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/stl_construct.h:
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/ext/numeric_traits.h:
 
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/atomic_lockfree_defines.h:
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/stl_iterator_base_funcs.h:
 
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/f16cintrin.h:
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/debug/debug.h:
 
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/nested_exception.h:
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/ptr_traits.h:
 
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/alloc_traits.h:
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/locale_facets_nonio.h:
 
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/random:
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/localefwd.h:
 
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/postypes.h:
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/cwchar:
 
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/cwchar:
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/predefined_ops.h:
+
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/stl_construct.h:
+
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/atomic_lockfree_defines.h:
+
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/cstdlib:
+
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/string_view:
+
+C:/TDM-GCC-64/x86_64-w64-mingw32/include/limits.h:
+
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/tr1/gamma.tcc:
+
+C:/TDM-GCC-64/x86_64-w64-mingw32/include/stdlib.h:
+
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/std_abs.h:
+
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/basic_string.tcc:
+
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include-fixed/limits.h:
+
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include-fixed/syslimits.h:
+
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/stddef.h:
+
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/stdlib.h:
+
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/unique_ptr.h:
+
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/algorithmfwd.h:
+
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/set:
+
+C:/TDM-GCC-64/x86_64-w64-mingw32/include/ctype.h:
+
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/stl_tempbuf.h:
+
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/exception.h:
+
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/functional:
+
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/stl_function.h:
+
+D:/Documents/Code/Personal\ Projects/Dialogue-Driver/libs/googletest/googlemock/include/gmock/internal/gmock-internal-utils.h:
+
+C:/TDM-GCC-64/x86_64-w64-mingw32/include/sec_api/sys/timeb_s.h:
+
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/backward/binders.h:
+
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/tuple:
+
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/sstream:
+
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/array:
+
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/iterator_concepts.h:
+
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/concepts:
+
+D:/Documents/Code/Personal\ Projects/Dialogue-Driver/libs/googletest/googlemock/include/gmock/internal/custom/gmock-generated-actions.h:
+
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/range_cmp.h:
+
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/uses_allocator.h:
+
+D:/Documents/Code/Personal\ Projects/Dialogue-Driver/libs/googletest/googletest/include/gtest/internal/custom/gtest-printers.h:
+
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/invoke.h:
+
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/refwrap.h:
+
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/unordered_map:
+
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/x86_64-w64-mingw32/bits/time_members.h:
+
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/allocator.h:
+
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/shared_ptr_atomic.h:
+
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/x86_64-w64-mingw32/bits/c++allocator.h:
+
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/ext/new_allocator.h:
+
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/x86_64-w64-mingw32/bits/atomic_word.h:
+
+C:/TDM-GCC-64/x86_64-w64-mingw32/include/pthread_unistd.h:
+
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/memoryfwd.h:
+
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/stl_tree.h:
+
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/ext/alloc_traits.h:
+
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/alloc_traits.h:
+
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/ext/aligned_buffer.h:
+
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/hashtable.h:
+
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/node_handle.h:
+
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/optional:
+
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/enable_special_members.h:
+
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/system_error:
+
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/unordered_map.h:
+
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/erase_if.h:
+
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/vector:
+
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/stl_uninitialized.h:
+
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/stl_vector.h:
+
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/stl_bvector.h:
+
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/vector.tcc:
+
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/memory:
+
+D:/Documents/Code/Personal\ Projects/Dialogue-Driver/libs/googletest/googlemock/src/gmock-cardinalities.cc:
+
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/x86_64-w64-mingw32/bits/ctype_inline.h:
+
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/stl_raw_storage_iter.h:
+
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/ranges_uninitialized.h:
+
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/iosfwd:
+
+D:/Documents/Code/Personal\ Projects/Dialogue-Driver/libs/googletest/googlemock/include/gmock/internal/custom/gmock-port.h:
+
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/stringfwd.h:
+
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/postypes.h:
 
 C:/TDM-GCC-64/x86_64-w64-mingw32/include/wchar.h:
 
+C:/TDM-GCC-64/x86_64-w64-mingw32/include/corecrt_stdio_config.h:
+
 C:/TDM-GCC-64/x86_64-w64-mingw32/include/_mingw_off_t.h:
+
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/chrono:
+
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/shared_ptr.h:
 
 C:/TDM-GCC-64/x86_64-w64-mingw32/include/swprintf.inl:
 
@@ -486,85 +578,25 @@ C:/TDM-GCC-64/x86_64-w64-mingw32/include/sec_api/stdio_s.h:
 
 C:/TDM-GCC-64/x86_64-w64-mingw32/include/sec_api/wchar_s.h:
 
-C:/TDM-GCC-64/x86_64-w64-mingw32/include/_mingw_print_pop.h:
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/ext/atomicity.h:
 
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/cstdint:
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/ios_base.h:
 
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/ctime:
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/x86_64-w64-mingw32/bits/gthr.h:
 
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/system_error:
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/x86_64-w64-mingw32/bits/gthr-default.h:
 
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/stdint.h:
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/cstddef:
+
+C:/TDM-GCC-64/x86_64-w64-mingw32/include/pthread.h:
+
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/stdint.h:
 
 C:/TDM-GCC-64/x86_64-w64-mingw32/include/stdint.h:
-
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/locale:
-
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/stddef.h:
-
-C:/TDM-GCC-64/x86_64-w64-mingw32/include/stddef.h:
-
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/allocator.h:
-
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/pmmintrin.h:
-
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/ext/new_allocator.h:
-
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/popcntintrin.h:
-
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/localefwd.h:
-
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/x86_64-w64-mingw32/bits/c++locale.h:
-
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/clocale:
-
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/functional:
-
-C:/TDM-GCC-64/x86_64-w64-mingw32/include/locale.h:
-
-C:/TDM-GCC-64/x86_64-w64-mingw32/include/stdio.h:
-
-C:/TDM-GCC-64/x86_64-w64-mingw32/include/sec_api/io_s.h:
 
 C:/TDM-GCC-64/x86_64-w64-mingw32/include/time.h:
 
 C:/TDM-GCC-64/x86_64-w64-mingw32/include/sys/types.h:
-
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/iosfwd:
-
-D:/Documents/Code/Personal\ Projects/Dialogue-Driver/libs/googletest/googlemock/include/gmock/gmock-cardinalities.h:
-
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/cctype:
-
-C:/TDM-GCC-64/x86_64-w64-mingw32/include/ctype.h:
-
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/istream.tcc:
-
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/bmiintrin.h:
-
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/ostream_insert.h:
-
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/cxxabi_forced.h:
-
-C:/TDM-GCC-64/x86_64-w64-mingw32/include/pthread_unistd.h:
-
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/stl_function.h:
-
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/range_access.h:
-
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/basic_string.h:
-
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/lzcntintrin.h:
-
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/ext/atomicity.h:
-
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/x86_64-w64-mingw32/bits/gthr.h:
-
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/x86_64-w64-mingw32/bits/gthr-default.h:
-
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/xsaveintrin.h:
-
-C:/TDM-GCC-64/x86_64-w64-mingw32/include/pthread.h:
 
 C:/TDM-GCC-64/x86_64-w64-mingw32/include/process.h:
 
@@ -572,241 +604,131 @@ C:/TDM-GCC-64/x86_64-w64-mingw32/include/signal.h:
 
 C:/TDM-GCC-64/x86_64-w64-mingw32/include/pthread_signal.h:
 
-D:/Documents/Code/Personal\ Projects/Dialogue-Driver/libs/googletest/googlemock/include/gmock/internal/gmock-internal-utils.h:
-
-C:/TDM-GCC-64/x86_64-w64-mingw32/include/sec_api/sys/timeb_s.h:
+C:/TDM-GCC-64/x86_64-w64-mingw32/include/sys/timeb.h:
 
 C:/TDM-GCC-64/x86_64-w64-mingw32/include/pthread_compat.h:
 
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/x86_64-w64-mingw32/bits/atomic_word.h:
-
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/ext/string_conversions.h:
-
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/cstdio:
-
-D:/Documents/Code/Personal\ Projects/Dialogue-Driver/libs/googletest/googlemock/include/gmock/internal/gmock-port.h:
-
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/cerrno:
-
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/lwpintrin.h:
-
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/hash_bytes.h:
-
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/basic_string.tcc:
-
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/cstring:
-
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/x86_64-w64-mingw32/bits/time_members.h:
-
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/limits:
-
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/clflushoptintrin.h:
-
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/random.h:
-
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/rdseedintrin.h:
-
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/vector:
-
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/stl_uninitialized.h:
-
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/stl_vector.h:
-
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/stl_bvector.h:
-
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/vector.tcc:
-
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/x86_64-w64-mingw32/bits/opt_random.h:
-
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/x86intrin.h:
-
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/xmmintrin.h:
-
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/mm_malloc.h:
-
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/emmintrin.h:
-
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/tmmintrin.h:
-
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/pcommitintrin.h:
-
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/ammintrin.h:
-
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/wmmintrin.h:
-
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/immintrin.h:
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/ext/concurrence.h:
 
 D:/Documents/Code/Personal\ Projects/Dialogue-Driver/libs/googletest/googletest/include/gtest/gtest-death-test.h:
 
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/shared_ptr_atomic.h:
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/shared_ptr_base.h:
 
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/avx2intrin.h:
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/allocated_ptr.h:
 
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/avx512fintrin.h:
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/backward/auto_ptr.h:
 
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/avx512erintrin.h:
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/x86_64-w64-mingw32/bits/error_constants.h:
 
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/basic_ios.h:
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/cstdint:
 
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/avx512pfintrin.h:
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/pstl/glue_memory_defs.h:
 
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/avx512cdintrin.h:
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/string:
 
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/avx512vlintrin.h:
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/char_traits.h:
 
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/avx512bwintrin.h:
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/x86_64-w64-mingw32/bits/c++locale.h:
 
-D:/Documents/Code/Personal\ Projects/Dialogue-Driver/libs/googletest/googletest/include/gtest/internal/gtest-port-arch.h:
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/clocale:
 
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/avx512dqintrin.h:
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/tr1/hypergeometric.tcc:
 
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/avx512vlbwintrin.h:
+C:/TDM-GCC-64/x86_64-w64-mingw32/include/locale.h:
 
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/avx512vldqintrin.h:
+C:/TDM-GCC-64/x86_64-w64-mingw32/include/stdio.h:
 
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/avx512ifmavlintrin.h:
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/cctype:
 
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/avx512vbmiintrin.h:
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/ostream_insert.h:
 
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/shaintrin.h:
-
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/backward/auto_ptr.h:
-
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/bmi2intrin.h:
-
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/fmaintrin.h:
-
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/uses_allocator.h:
-
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/rtmintrin.h:
-
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/mm3dnow.h:
-
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/hashtable_policy.h:
-
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/prfchwintrin.h:
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/basic_string.h:
 
 D:/Documents/Code/Personal\ Projects/Dialogue-Driver/libs/googletest/googletest/include/gtest/gtest_pred_impl.h:
 
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/fma4intrin.h:
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/string_view.tcc:
 
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/tbmintrin.h:
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/ext/string_conversions.h:
 
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/fxsrintrin.h:
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/cstdio:
 
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/xsaveoptintrin.h:
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/cerrno:
 
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/adxintrin.h:
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/charconv.h:
 
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/clwbintrin.h:
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/ostream:
 
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/xsavesintrin.h:
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/ios:
 
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/xsavecintrin.h:
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/locale_classes.h:
 
-D:/Documents/Code/Personal\ Projects/Dialogue-Driver/libs/googletest/googletest/include/gtest/gtest-assertion-result.h:
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/locale_classes.tcc:
 
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/random.tcc:
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/stdexcept:
 
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/numeric:
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/streambuf:
 
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/stl_numeric.h:
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/streambuf.tcc:
 
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/typeinfo:
+D:/Documents/Code/Personal\ Projects/Dialogue-Driver/libs/googletest/googletest/include/gtest/gtest.h:
 
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/tuple:
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/basic_ios.h:
 
-D:/Documents/Code/Personal\ Projects/Dialogue-Driver/libs/googletest/googlemock/src/gmock.cc:
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/sstream.tcc:
 
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/array:
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/locale_facets.h:
 
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/stdexcept:
-
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/memory:
-
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/stl_raw_storage_iter.h:
-
-D:/Documents/Code/Personal\ Projects/Dialogue-Driver/libs/googletest/googlemock/src/gmock-internal-utils.cc:
-
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/ext/concurrence.h:
-
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/stl_map.h:
-
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/atomic:
-
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/unique_ptr.h:
-
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/shared_ptr.h:
-
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/shared_ptr_base.h:
-
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/ostream:
-
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/allocated_ptr.h:
-
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/atomic_base.h:
-
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/sstream:
-
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/ios:
-
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/ios_base.h:
-
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/locale_classes.h:
-
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/locale_classes.tcc:
-
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/x86_64-w64-mingw32/bits/error_constants.h:
-
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/streambuf:
-
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/streambuf.tcc:
-
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/cwctype:
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/cwctype:
 
 C:/TDM-GCC-64/x86_64-w64-mingw32/include/wctype.h:
 
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/x86_64-w64-mingw32/bits/ctype_base.h:
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/ostream.tcc:
 
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/streambuf_iterator.h:
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/x86_64-w64-mingw32/bits/ctype_base.h:
 
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/sstream.tcc:
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/stl_set.h:
 
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/x86_64-w64-mingw32/bits/ctype_inline.h:
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/streambuf_iterator.h:
 
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/locale_facets.tcc:
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/locale_facets.tcc:
 
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/basic_ios.tcc:
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/basic_ios.tcc:
 
-D:/Documents/Code/Personal\ Projects/Dialogue-Driver/libs/googletest/googlemock/src/gmock-cardinalities.cc:
+D:/Documents/Code/Personal\ Projects/Dialogue-Driver/libs/googletest/googlemock/include/gmock/internal/gmock-port.h:
 
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/ostream.tcc:
+C:/TDM-GCC-64/x86_64-w64-mingw32/include/assert.h:
 
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/istream:
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/iostream:
 
-D:/Documents/Code/Personal\ Projects/Dialogue-Driver/libs/googletest/googlemock/include/gmock/internal/custom/gmock-port.h:
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/parse_numbers.h:
+
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/istream:
+
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/istream.tcc:
 
 D:/Documents/Code/Personal\ Projects/Dialogue-Driver/libs/googletest/googletest/include/gtest/internal/gtest-port.h:
 
 C:/TDM-GCC-64/x86_64-w64-mingw32/include/string.h:
 
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/mutex:
-
 C:/TDM-GCC-64/x86_64-w64-mingw32/include/sec_api/string_s.h:
 
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/locale_facets_nonio.h:
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/locale:
+
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/ctime:
 
 C:/TDM-GCC-64/x86_64-w64-mingw32/include/_timeval.h:
 
 C:/TDM-GCC-64/x86_64-w64-mingw32/include/pthread_time.h:
 
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/x86_64-w64-mingw32/bits/messages_members.h:
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/x86_64-w64-mingw32/bits/messages_members.h:
 
-D:/Documents/Code/Personal\ Projects/Dialogue-Driver/libs/googletest/googletest/include/gtest/gtest-param-test.h:
+D:/Documents/Code/Personal\ Projects/Dialogue-Driver/libs/googletest/googletest/include/gtest/internal/custom/gtest-port.h:
 
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/locale_facets_nonio.tcc:
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/codecvt.h:
 
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/locale_conv.h:
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/locale_facets_nonio.tcc:
+
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/locale_conv.h:
 
 C:/TDM-GCC-64/x86_64-w64-mingw32/include/sys/stat.h:
 
@@ -814,31 +736,33 @@ D:/Documents/Code/Personal\ Projects/Dialogue-Driver/libs/googletest/googletest/
 
 C:/TDM-GCC-64/x86_64-w64-mingw32/include/io.h:
 
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/cstring:
+
+D:/Documents/Code/Personal\ Projects/Dialogue-Driver/libs/googletest/googletest/include/gtest/internal/gtest-port-arch.h:
+
 C:/TDM-GCC-64/x86_64-w64-mingw32/include/direct.h:
 
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/condition_variable:
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/condition_variable:
 
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/chrono:
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/ratio:
 
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/ratio:
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/std_mutex.h:
 
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/parse_numbers.h:
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/unique_lock.h:
 
-D:/Documents/Code/Personal\ Projects/Dialogue-Driver/libs/googletest/googletest/include/gtest/gtest.h:
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/mutex:
 
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/cstddef:
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/any:
 
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/iomanip:
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/variant:
 
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/set:
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/iomanip:
 
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/stl_tree.h:
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/quoted_string.h:
 
-D:/Documents/Code/Personal\ Projects/Dialogue-Driver/libs/googletest/googlemock/include/gmock/gmock-nice-strict.h:
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/stl_multiset.h:
 
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/stl_set.h:
-
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/stl_multiset.h:
+D:/Documents/Code/Personal\ Projects/Dialogue-Driver/libs/googletest/googletest/include/gtest/gtest-assertion-result.h:
 
 D:/Documents/Code/Personal\ Projects/Dialogue-Driver/libs/googletest/googletest/include/gtest/gtest-message.h:
 
@@ -846,17 +770,23 @@ D:/Documents/Code/Personal\ Projects/Dialogue-Driver/libs/googletest/googletest/
 
 D:/Documents/Code/Personal\ Projects/Dialogue-Driver/libs/googletest/googletest/include/gtest/gtest-matchers.h:
 
+D:/Documents/Code/Personal\ Projects/Dialogue-Driver/libs/googletest/googlemock/src/gmock-internal-utils.cc:
+
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/atomic:
+
 D:/Documents/Code/Personal\ Projects/Dialogue-Driver/libs/googletest/googletest/include/gtest/gtest-printers.h:
 
 D:/Documents/Code/Personal\ Projects/Dialogue-Driver/libs/googletest/googletest/include/gtest/internal/gtest-internal.h:
 
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/float.h:
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/float.h:
 
 C:/TDM-GCC-64/x86_64-w64-mingw32/include/float.h:
 
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/map:
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/map:
 
-D:/Documents/Code/Personal\ Projects/Dialogue-Driver/libs/googletest/googletest/include/gtest/internal/gtest-filepath.h:
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/stl_map.h:
+
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/stl_multimap.h:
 
 D:/Documents/Code/Personal\ Projects/Dialogue-Driver/libs/googletest/googlemock/src/gmock-matchers.cc:
 
@@ -864,17 +794,17 @@ D:/Documents/Code/Personal\ Projects/Dialogue-Driver/libs/googletest/googletest/
 
 D:/Documents/Code/Personal\ Projects/Dialogue-Driver/libs/googletest/googletest/include/gtest/internal/gtest-type-util.h:
 
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/cxxabi.h:
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/cxxabi.h:
 
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/x86_64-w64-mingw32/bits/cxxabi_tweaks.h:
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/x86_64-w64-mingw32/bits/cxxabi_tweaks.h:
 
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/iterator:
+D:/Documents/Code/Personal\ Projects/Dialogue-Driver/libs/googletest/googletest/include/gtest/gtest-param-test.h:
 
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/stream_iterator.h:
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/iterator:
 
 D:/Documents/Code/Personal\ Projects/Dialogue-Driver/libs/googletest/googletest/include/gtest/internal/gtest-param-util.h:
 
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/cassert:
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/cassert:
 
 D:/Documents/Code/Personal\ Projects/Dialogue-Driver/libs/googletest/googletest/include/gtest/gtest-test-part.h:
 
@@ -882,24 +812,42 @@ D:/Documents/Code/Personal\ Projects/Dialogue-Driver/libs/googletest/googletest/
 
 D:/Documents/Code/Personal\ Projects/Dialogue-Driver/libs/googletest/googlemock/include/gmock/internal/gmock-pp.h:
 
+D:/Documents/Code/Personal\ Projects/Dialogue-Driver/libs/googletest/googlemock/include/gmock/gmock-cardinalities.h:
+
 D:/Documents/Code/Personal\ Projects/Dialogue-Driver/libs/googletest/googlemock/include/gmock/gmock-function-mocker.h:
 
 D:/Documents/Code/Personal\ Projects/Dialogue-Driver/libs/googletest/googlemock/include/gmock/gmock-spec-builders.h:
 
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/tr1/poly_hermite.tcc:
+
 D:/Documents/Code/Personal\ Projects/Dialogue-Driver/libs/googletest/googlemock/include/gmock/gmock-matchers.h:
+
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/cmath:
+
+C:/TDM-GCC-64/x86_64-w64-mingw32/include/math.h:
+
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/specfun.h:
+
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/tr1/special_function_util.h:
+
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/tr1/bessel_function.tcc:
+
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/tr1/beta_function.tcc:
+
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/tr1/ell_integral.tcc:
+
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/tr1/exp_integral.tcc:
+
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/tr1/legendre_function.tcc:
+
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/tr1/riemann_zeta.tcc:
 
 D:/Documents/Code/Personal\ Projects/Dialogue-Driver/libs/googletest/googlemock/include/gmock/internal/custom/gmock-matchers.h:
 
 D:/Documents/Code/Personal\ Projects/Dialogue-Driver/libs/googletest/googlemock/include/gmock/gmock-more-actions.h:
 
-D:/Documents/Code/Personal\ Projects/Dialogue-Driver/libs/googletest/googlemock/include/gmock/internal/custom/gmock-generated-actions.h:
-
 D:/Documents/Code/Personal\ Projects/Dialogue-Driver/libs/googletest/googlemock/include/gmock/gmock-more-matchers.h:
 
-D:/Documents/Code/Personal\ Projects/Dialogue-Driver/libs/googletest/googlemock/src/gmock-spec-builders.cc:
+D:/Documents/Code/Personal\ Projects/Dialogue-Driver/libs/googletest/googlemock/include/gmock/gmock-nice-strict.h:
 
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/unordered_map:
-
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/hashtable.h:
-
-C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/unordered_map.h:
+D:/Documents/Code/Personal\ Projects/Dialogue-Driver/libs/googletest/googlemock/src/gmock.cc:

@@ -10,14 +10,14 @@
 				{
 					"includeDirectories" : 
 					[
-						"C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include",
+						"C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include",
 						"C:/TDM-GCC-64/include",
-						"C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include-fixed",
+						"C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include-fixed",
 						"C:/TDM-GCC-64/x86_64-w64-mingw32/include"
 					],
 					"linkDirectories" : 
 					[
-						"C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0",
+						"C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0",
 						"C:/TDM-GCC-64/lib/gcc",
 						"C:/TDM-GCC-64/x86_64-w64-mingw32/lib",
 						"C:/TDM-GCC-64/lib"
@@ -27,8 +27,12 @@
 					[
 						"mingw32",
 						"gcc",
+						"pthread",
+						"gcc",
+						"kernel32",
 						"moldname",
 						"mingwex",
+						"kernel32",
 						"pthread",
 						"advapi32",
 						"shell32",
@@ -36,12 +40,16 @@
 						"kernel32",
 						"mingw32",
 						"gcc",
+						"pthread",
+						"gcc",
+						"kernel32",
 						"moldname",
-						"mingwex"
+						"mingwex",
+						"kernel32"
 					]
 				},
 				"path" : "C:/TDM-GCC-64/bin/gcc.exe",
-				"version" : "5.1.0"
+				"version" : "10.3.0"
 			},
 			"language" : "C",
 			"sourceFileExtensions" : 
@@ -58,17 +66,17 @@
 				{
 					"includeDirectories" : 
 					[
-						"C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++",
-						"C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/x86_64-w64-mingw32",
-						"C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/backward",
-						"C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include",
+						"C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++",
+						"C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/x86_64-w64-mingw32",
+						"C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/backward",
+						"C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include",
 						"C:/TDM-GCC-64/include",
-						"C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include-fixed",
+						"C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include-fixed",
 						"C:/TDM-GCC-64/x86_64-w64-mingw32/include"
 					],
 					"linkDirectories" : 
 					[
-						"C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0",
+						"C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0",
 						"C:/TDM-GCC-64/lib/gcc",
 						"C:/TDM-GCC-64/x86_64-w64-mingw32/lib",
 						"C:/TDM-GCC-64/lib"
@@ -76,11 +84,15 @@
 					"linkFrameworkDirectories" : [],
 					"linkLibraries" : 
 					[
-						"C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/libstdc++.a",
+						"C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/libstdc++.a",
 						"mingw32",
 						"gcc",
+						"pthread",
+						"gcc",
+						"kernel32",
 						"moldname",
 						"mingwex",
+						"kernel32",
 						"pthread",
 						"advapi32",
 						"shell32",
@@ -88,12 +100,16 @@
 						"kernel32",
 						"mingw32",
 						"gcc",
+						"pthread",
+						"gcc",
+						"kernel32",
 						"moldname",
-						"mingwex"
+						"mingwex",
+						"kernel32"
 					]
 				},
 				"path" : "C:/TDM-GCC-64/bin/g++.exe",
-				"version" : "5.1.0"
+				"version" : "10.3.0"
 			},
 			"language" : "CXX",
 			"sourceFileExtensions" : 

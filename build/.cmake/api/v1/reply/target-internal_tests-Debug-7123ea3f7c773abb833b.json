@@ -59,7 +59,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-g -std=gnu++1z"
+					"fragment" : "-g -std=gnu++17"
 				}
 			],
 			"includes" : 

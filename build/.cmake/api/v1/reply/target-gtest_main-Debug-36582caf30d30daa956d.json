@@ -86,10 +86,10 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-g -std=c++1z"
+					"fragment" : "-g -std=c++17"
 				},
 				{
-					"fragment" : "-Wall -Wshadow -Wundef -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers"
+					"fragment" : "-Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers"
 				}
 			],
 			"includes" : 
