@@ -35,15 +35,15 @@ private:
     template <typename T>
     bool _Compare(const T &other, std::function<bool(const T, const T)> &compareFunc) const
     {
-        std::cout << "Comparing types " << typeid(T).name() << std::endl;
+        // std::cout << "Comparing types " << typeid(T).name() << std::endl;
         if (this->_VerifyType<T>())
         {
             T data = this->Get<T>();
-            std::cout << "Comparing " << data << " to " << other << std::endl;
+            // std::cout << "Comparing " << data << " to " << other << std::endl;
             return compareFunc(data, other);
         }
 
-        std::cout << "Mismatching type / Invalid Fact!" << std::endl;
+        // std::cout << "Mismatching type / Invalid Fact!" << std::endl;
         return false;
     }
 
@@ -60,7 +60,7 @@ public:
         {
             this->_data = data;
             this->_isValid = true;
-            std::cout << "Created valid fact!" << std::endl;
+            // std::cout << "Created valid fact!" << std::endl;
         }
         catch (const std::bad_variant_access &ex)
         {
@@ -88,16 +88,15 @@ public:
     template <typename T>
     void Set(T data)
     {
-        this->_VerifyType<T>();
+        if (this->_isValid == false)
+        {
+            // This fact was not created with data, allow for users to not give data in constructor
+            this->_isValid == true;
+            this->_data = data; // Throw error still
+            return;
+        }
 
-        try
-        {
-            this->_data = data;
-        }
-        catch (const std::bad_variant_access &ex)
-        {
-            std::cout << ex.what() << '\n';
-        }
+        if (this->_VerifyType<T>()) this->_data = data;
     }
 
     template <typename T>
@@ -108,32 +107,74 @@ public:
             throw new std::logic_error("Cannot Get from NULL fact!");
         }
 
-        try
-        {
-            return std::get<T>(this->_data);
-        }
-        catch (const std::bad_variant_access &ex)
-        {
-            std::cout << ex.what() << '\n';
-            return T();
-        }
+        return std::get<T>(this->_data);
     }
 
     // * Fact Comparison Operators
     bool operator ==(const Fact &other) const
     {
-        std::cout << "Comparing two facts..." << std::endl;
+        // std::cout << "Comparing two facts..." << std::endl;
         if (this->_data.index() == other._data.index()) return this->_data == other._data;
 
         // Additional logic for float and integer comparisons
         if (std::holds_alternative<int>(this->_data) && std::holds_alternative<float>(other._data)) 
-            return *this == other.Get<float>();
+            return (float)this->Get<int>() == other.Get<float>();
 
         if (std::holds_alternative<float>(this->_data) && std::holds_alternative<int>(other._data))
-            return *this == other.Get<int>();
+            return this->Get<float>() == (float)other.Get<int>();
 
         return false;
 
+    }
+
+    bool operator !=(const Fact &other) const
+    {
+        return !(*this == other);
+    }
+
+    bool operator <(const Fact &other) const
+    {
+        if (this->_data.index() == other._data.index()) 
+            return this->_data < other._data;
+        
+        // Additional logic for float and integer comparisons
+        if (std::holds_alternative<int>(this->_data) && std::holds_alternative<float>(other._data)) 
+            return (float)this->Get<int>() < other.Get<float>();
+
+        if (std::holds_alternative<float>(this->_data) && std::holds_alternative<int>(other._data))
+            return this->Get<float>() < (float)other.Get<int>();
+
+        // No throw; silent failure
+        // std::cout << "Warning: Comparing Facts of different types!" << std::endl;
+        return false;
+    }
+
+    bool operator >(const Fact &other) const
+    {
+        if (this->_data.index() == other._data.index()) 
+            return this->_data > other._data;
+        
+        // Additional logic for float and integer comparisons
+        if (std::holds_alternative<int>(this->_data) && std::holds_alternative<float>(other._data)) 
+            return (float)this->Get<int>() > other.Get<float>();
+
+        if (std::holds_alternative<float>(this->_data) && std::holds_alternative<int>(other._data))
+            return this->Get<float>() > (float)other.Get<int>();
+
+        // Silent failure for different types
+        return false;
+    }
+
+    bool operator <=(const Fact &other) const
+    {
+        // Implementing 'operator<=' in terms of 'operator<' and 'operator=='
+        return *this < other || *this == other;
+    }
+
+    bool operator >=(const Fact &other) const
+    {
+        // Implementing 'operator>=' in terms of 'operator>' and 'operator=='
+        return *this > other || *this == other;
     }
 
     // * Generic Comparison Operators

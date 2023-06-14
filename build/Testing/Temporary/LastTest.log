@@ -1,49 +1,46 @@
-Start testing: Jun 13 22:40 Eastern Daylight Time
+Start testing: Jun 13 23:38 Eastern Daylight Time
 ----------------------------------------------------------
 1/1 Testing: InternalTests
 1/1 Test: InternalTests
 Command: "D:/Documents/Code/Personal Projects/Dialogue-Driver/build/tests/internal_tests.exe"
 Directory: D:/Documents/Code/Personal Projects/Dialogue-Driver/build/tests
-"InternalTests" start time: Jun 13 22:40 Eastern Daylight Time
+"InternalTests" start time: Jun 13 23:38 Eastern Daylight Time
 Output:
 ----------------------------------------------------------
 Running main() from D:/Documents/Code/Personal Projects/Dialogue-Driver/libs/googletest/googletest/src/gtest_main.cc
-[==========] Running 4 tests from 1 test suite.
+[==========] Running 6 tests from 1 test suite.
 [----------] Global test environment set-up.
-[----------] 4 tests from Facts
+[----------] 6 tests from Facts
 [ RUN      ] Facts.Fact_Construction
-Comparing types i
-Mismatching type / Invalid Fact!
 [       OK ] Facts.Fact_Construction (0 ms)
 [ RUN      ] Facts.Fact_Float
-Created valid fact!
-Comparing types f
-Comparing 1 to 1
-Comparing types f
-Comparing 1 to 2
-Created valid fact!
-Comparing two facts...
-Created valid fact!
-Comparing two facts...
 [       OK ] Facts.Fact_Float (0 ms)
 [ RUN      ] Facts.Fact_String
-Created valid fact!
-Comparing types NSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
-Comparing Hi! to Hi!
 [       OK ] Facts.Fact_String (0 ms)
-[ RUN      ] Facts.Fact_Static
-[       OK ] Facts.Fact_Static (0 ms)
-[----------] 4 tests from Facts (0 ms total)
+[ RUN      ] Facts.Fact_Comparison_Operators
+[       OK ] Facts.Fact_Comparison_Operators (0 ms)
+[ RUN      ] Facts.Fact_Assignment_and_Get_Methods
+unknown file: Failure
+Unknown C++ exception thrown in the test body.
+
+[  FAILED  ] Facts.Fact_Assignment_and_Get_Methods (0 ms)
+[ RUN      ] Facts.Fact_Bad_Variant_Access
+[       OK ] Facts.Fact_Bad_Variant_Access (0 ms)
+[----------] 6 tests from Facts (0 ms total)
 
 [----------] Global test environment tear-down
-[==========] 4 tests from 1 test suite ran. (0 ms total)
-[  PASSED  ] 4 tests.
+[==========] 6 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 5 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] Facts.Fact_Assignment_and_Get_Methods
+
+ 1 FAILED TEST
 <end of output>
 Test time =   0.06 sec
 ----------------------------------------------------------
-Test Passed.
-"InternalTests" end time: Jun 13 22:40 Eastern Daylight Time
+Test Failed.
+"InternalTests" end time: Jun 13 23:38 Eastern Daylight Time
 "InternalTests" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: Jun 13 22:40 Eastern Daylight Time
+End testing: Jun 13 23:38 Eastern Daylight Time
