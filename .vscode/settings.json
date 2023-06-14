@@ -82,5 +82,14 @@
         "xutility": "cpp"
     },
     "makefile.makePath": "",
-    "makefile.makefilePath": "makefile"
+    "makefile.makefilePath": "makefile",
+    "C_Cpp.files.exclude": {
+        "**/.vscode": true,
+        "**/.vs": true
+    },
+    "files.exclude":{
+        "**/*.vcxproj": true,
+        "**/*.vcxproj.filters": true,
+        "**/*.sln": true
+    }
 }

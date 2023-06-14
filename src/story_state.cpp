@@ -18,9 +18,10 @@ Fact StoryState::_FindFact(std::string factName) const {
 
 template<typename T>
 bool StoryState::VerifyFact(std::string factName, std::function<bool(T)>& cmpr) const {
-    Fact f = this->_FindFact(factName);
-    FACT_TYPE type = Fact::GetFactType<T>(T());
-    f.VerifyType(type);
+    // Fact f = this->_FindFact(factName);
+    // FACT_TYPE type = Fact::GetFactType<T>(T());
+    // f.VerifyType(type);
+    return true;
 }
 
 template<typename T>

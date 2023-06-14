@@ -1,25 +1,49 @@
-Start testing: Jun 10 09:03 Central Daylight Time
+Start testing: Jun 13 22:40 Eastern Daylight Time
 ----------------------------------------------------------
 1/1 Testing: InternalTests
 1/1 Test: InternalTests
 Command: "D:/Documents/Code/Personal Projects/Dialogue-Driver/build/tests/internal_tests.exe"
 Directory: D:/Documents/Code/Personal Projects/Dialogue-Driver/build/tests
-"InternalTests" start time: Jun 10 09:03 Central Daylight Time
+"InternalTests" start time: Jun 13 22:40 Eastern Daylight Time
 Output:
 ----------------------------------------------------------
 Running main() from D:/Documents/Code/Personal Projects/Dialogue-Driver/libs/googletest/googletest/src/gtest_main.cc
-[==========] Running 2 tests from 1 test suite.
+[==========] Running 4 tests from 1 test suite.
 [----------] Global test environment set-up.
-[----------] 2 tests from Facts
+[----------] 4 tests from Facts
 [ RUN      ] Facts.Fact_Construction
-Copying 4 Bytes
-Successfully copied!
+Comparing types i
+Mismatching type / Invalid Fact!
+[       OK ] Facts.Fact_Construction (0 ms)
+[ RUN      ] Facts.Fact_Float
+Created valid fact!
+Comparing types f
+Comparing 1 to 1
+Comparing types f
+Comparing 1 to 2
+Created valid fact!
+Comparing two facts...
+Created valid fact!
+Comparing two facts...
+[       OK ] Facts.Fact_Float (0 ms)
+[ RUN      ] Facts.Fact_String
+Created valid fact!
+Comparing types NSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+Comparing Hi! to Hi!
+[       OK ] Facts.Fact_String (0 ms)
+[ RUN      ] Facts.Fact_Static
+[       OK ] Facts.Fact_Static (0 ms)
+[----------] 4 tests from Facts (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 4 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 4 tests.
 <end of output>
-Test time =   0.08 sec
+Test time =   0.06 sec
 ----------------------------------------------------------
-Test Failed.
-"InternalTests" end time: Jun 10 09:03 Central Daylight Time
+Test Passed.
+"InternalTests" end time: Jun 13 22:40 Eastern Daylight Time
 "InternalTests" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: Jun 10 09:03 Central Daylight Time
+End testing: Jun 13 22:40 Eastern Daylight Time
