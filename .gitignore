@@ -34,4 +34,4 @@
 # Folders to ignore
 build/
 .vs/
-.vscode
+.vscode/
