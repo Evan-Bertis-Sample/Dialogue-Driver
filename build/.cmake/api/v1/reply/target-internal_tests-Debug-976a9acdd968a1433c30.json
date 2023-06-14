@@ -98,11 +98,11 @@
 	[
 		{
 			"backtrace" : 2,
-			"id" : "gtest::@f3055240739694365a17"
+			"id" : "gtest_main::@f3055240739694365a17"
 		},
 		{
 			"backtrace" : 2,
-			"id" : "gtest_main::@f3055240739694365a17"
+			"id" : "gtest::@f3055240739694365a17"
 		},
 		{
 			"backtrace" : 3,

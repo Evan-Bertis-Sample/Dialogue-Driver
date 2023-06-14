@@ -91,8 +91,8 @@ public:
         if (this->_isValid == false)
         {
             // This fact was not created with data, allow for users to not give data in constructor
-            this->_isValid == true;
-            this->_data = data; // Throw error still
+            this->_isValid = true;
+            this->_data.emplace<T>(data);
             return;
         }
 
@@ -113,6 +113,9 @@ public:
     // * Fact Comparison Operators
     bool operator ==(const Fact &other) const
     {
+        // Handle invalid facts
+        if (this->_isValid == false || other._isValid == false) return false;
+
         // std::cout << "Comparing two facts..." << std::endl;
         if (this->_data.index() == other._data.index()) return this->_data == other._data;
 
@@ -129,11 +132,17 @@ public:
 
     bool operator !=(const Fact &other) const
     {
+        // Handle invalid facts
+        if (this->_isValid == false || other._isValid == false) return false;
+
         return !(*this == other);
     }
 
     bool operator <(const Fact &other) const
     {
+        // Handle invalid facts
+        if (this->_isValid == false || other._isValid == false) return false;
+
         if (this->_data.index() == other._data.index()) 
             return this->_data < other._data;
         
@@ -151,6 +160,9 @@ public:
 
     bool operator >(const Fact &other) const
     {
+        // Handle invalid facts
+        if (this->_isValid == false || other._isValid == false) return false;
+
         if (this->_data.index() == other._data.index()) 
             return this->_data > other._data;
         
@@ -167,12 +179,18 @@ public:
 
     bool operator <=(const Fact &other) const
     {
+        // Handle invalid facts
+        if (this->_isValid == false || other._isValid == false) return false;
+
         // Implementing 'operator<=' in terms of 'operator<' and 'operator=='
         return *this < other || *this == other;
     }
 
     bool operator >=(const Fact &other) const
     {
+        // Handle invalid facts
+        if (this->_isValid == false || other._isValid == false) return false;
+
         // Implementing 'operator>=' in terms of 'operator>' and 'operator=='
         return *this > other || *this == other;
     }

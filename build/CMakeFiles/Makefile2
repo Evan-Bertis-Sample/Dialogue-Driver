@@ -324,8 +324,8 @@ src/CMakeFiles/dialogue_driver.dir/clean:
 # Target rules for target tests/CMakeFiles/internal_tests.dir
 
 # All Build rule for target.
-tests/CMakeFiles/internal_tests.dir/all: libs/googletest/googletest/CMakeFiles/gtest.dir/all
 tests/CMakeFiles/internal_tests.dir/all: libs/googletest/googletest/CMakeFiles/gtest_main.dir/all
+tests/CMakeFiles/internal_tests.dir/all: libs/googletest/googletest/CMakeFiles/gtest.dir/all
 tests/CMakeFiles/internal_tests.dir/all: src/CMakeFiles/dialogue_driver_obj.dir/all
 	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/internal_tests.dir/build.make tests/CMakeFiles/internal_tests.dir/depend
 	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/internal_tests.dir/build.make tests/CMakeFiles/internal_tests.dir/build
