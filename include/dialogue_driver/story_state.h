@@ -26,7 +26,6 @@ public:
         {
             if (crit->VerifyCriteria(*this) == false)
                 return false;
-            std::cout << "Moving onto next criteria" << std::endl;
         }
 
         return true;
