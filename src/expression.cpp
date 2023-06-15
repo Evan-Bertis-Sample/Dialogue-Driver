@@ -10,7 +10,7 @@
 #include "dialogue_driver/expression.h"
 #include "dialogue_driver/operator.h"
 
-bool Expression::VerifyCriteria(const StoryState &state) const
+bool Expression::VerifyCriteria(const FactCollection &state) const
 {
     try
     {

@@ -2,14 +2,14 @@
 
 #include "gtest/gtest.h"
 #include "dialogue_driver/fact.h"
-#include "dialogue_driver/story_state.h"
+#include "dialogue_driver/fact_collection.h"
 #include "dialogue_driver/icriteria.h"
 #include "dialogue_driver/operator.h"
 #include "dialogue_driver/expression.h"
 
 TEST(Expression, Expression_Basic)
 {
-    StoryState state;
+    FactCollection state;
     state.AddFact("lhs", 1.0f);
     state.AddFact("rhs", 1.0f);
 
@@ -20,7 +20,7 @@ TEST(Expression, Expression_Basic)
 
 TEST(Expression, Expression_NotEqual)
 {
-    StoryState state;
+    FactCollection state;
     state.AddFact("lhs", 1.0f);
     state.AddFact("rhs", 2.0f);
 
@@ -31,7 +31,7 @@ TEST(Expression, Expression_NotEqual)
 
 TEST(Expression, Expression_LessThan)
 {
-    StoryState state;
+    FactCollection state;
     state.AddFact("lhs", 1.0f);
     state.AddFact("rhs", 2.0f);
 
@@ -42,7 +42,7 @@ TEST(Expression, Expression_LessThan)
 
 TEST(Expression, Expression_GreaterThan)
 {
-    StoryState state;
+    FactCollection state;
     state.AddFact("lhs", 3.0f);
     state.AddFact("rhs", 2.0f);
 
@@ -53,7 +53,7 @@ TEST(Expression, Expression_GreaterThan)
 
 TEST(Expression, Expression_GreaterThanOrEqual)
 {
-    StoryState state;
+    FactCollection state;
     state.AddFact("lhs", 2.0f);
     state.AddFact("rhs", 2.0f);
 
@@ -64,7 +64,7 @@ TEST(Expression, Expression_GreaterThanOrEqual)
 
 TEST(Expression, Expression_LessThanOrEqual)
 {
-    StoryState state;
+    FactCollection state;
     state.AddFact("lhs", 2.0f);
     state.AddFact("rhs", 2.0f);
 
@@ -75,7 +75,7 @@ TEST(Expression, Expression_LessThanOrEqual)
 
 TEST(Expression, Expression_CopyConstructor)
 {
-    StoryState state;
+    FactCollection state;
     state.AddFact("lhs", 2.0f);
     state.AddFact("rhs", 2.0f);
 
@@ -88,7 +88,7 @@ TEST(Expression, Expression_CopyConstructor)
 // Test with std::string
 TEST(Expression, Expression_String)
 {
-    StoryState state;
+    FactCollection state;
     state.AddFact("lhs", std::string("test"));
     state.AddFact("rhs", std::string("test"));
 
@@ -100,7 +100,7 @@ TEST(Expression, Expression_String)
 // Test with bool
 TEST(Expression, Expression_Bool)
 {
-    StoryState state;
+    FactCollection state;
     state.AddFact("lhs", true);
     state.AddFact("rhs", true);
 
@@ -112,7 +112,7 @@ TEST(Expression, Expression_Bool)
 // Test with int
 TEST(Expression, Expression_Int)
 {
-    StoryState state;
+    FactCollection state;
     state.AddFact("lhs", 123);
     state.AddFact("rhs", 123);
 
@@ -124,7 +124,7 @@ TEST(Expression, Expression_Int)
 // Test with float
 TEST(Expression, Expression_Float)
 {
-    StoryState state;
+    FactCollection state;
     state.AddFact("lhs", 123.456f);
     state.AddFact("rhs", 123.456f);
 
@@ -136,7 +136,7 @@ TEST(Expression, Expression_Float)
 // Test when lhs fact is not in the state
 TEST(Expression, Expression_MissingLHSFact)
 {
-    StoryState state;
+    FactCollection state;
     state.AddFact("rhs", 123);
 
     Expression expression("lhs", COP_EQUAL, "rhs");
@@ -147,7 +147,7 @@ TEST(Expression, Expression_MissingLHSFact)
 // Test when rhs fact is not in the state
 TEST(Expression, Expression_MissingRHSFact)
 {
-    StoryState state;
+    FactCollection state;
     state.AddFact("lhs", 123);
 
     Expression expression("lhs", COP_EQUAL, "rhs");
@@ -158,7 +158,7 @@ TEST(Expression, Expression_MissingRHSFact)
 // Test when both facts are not in the state
 TEST(Expression, Expression_MissingBothFacts)
 {
-    StoryState state;
+    FactCollection state;
 
     Expression expression("lhs", COP_EQUAL, "rhs");
 

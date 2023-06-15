@@ -5,13 +5,13 @@
 #include "gtest/gtest.h"
 #include "dialogue_driver/driver.h"
 #include "dialogue_driver/fact.h"
-#include "dialogue_driver/story_state.h"
+#include "dialogue_driver/fact_collection.h"
 #include "dialogue_driver/icriteria.h"
 #include "dialogue_driver/expression.h"
 
-TEST(StoryState, State_Addition)
+TEST(FactCollection, State_Addition)
 {
-    StoryState state;
+    FactCollection state;
     state.AddFact("Name", std::string("Evan Bertis-Sample"));
     state.AddFact("Age", 19);
     state.AddFact("GPA", 3.6f);
@@ -21,57 +21,57 @@ TEST(StoryState, State_Addition)
     assert(state.GetFact<float>("GPA") == 3.6f);
 }
 
-TEST(StoryState, State_Update)
+TEST(FactCollection, State_Update)
 {
-    StoryState state;
+    FactCollection state;
     state.AddFact("Name", std::string("Evan"));
     state.UpdateFact("Name", std::string("Ethan"));
 
     assert(state.GetFact<std::string>("Name") == "Ethan");
 }
 
-TEST(StoryState, State_GetFact)
+TEST(FactCollection, State_GetFact)
 {
-    StoryState state;
+    FactCollection state;
     state.AddFact("Age", 20);
     
     EXPECT_EQ(state.GetFact<int>("Age"), 20);
     EXPECT_THROW(state.GetFact<std::string>("Age"), std::bad_variant_access);
 }
 
-TEST(StoryState, State_GetNonExistentFact)
+TEST(FactCollection, State_GetNonExistentFact)
 {
-    StoryState state; 
+    FactCollection state; 
     
     EXPECT_THROW(state.GetFact<int>("NonExistent"), std::out_of_range);
 }
 
-TEST(StoryState, State_UpdateNonExistentFact)
+TEST(FactCollection, State_UpdateNonExistentFact)
 {
-    StoryState state;
+    FactCollection state;
     
     EXPECT_NO_THROW(state.UpdateFact("NonExistent", 30));
 }
 
-TEST(StoryState, State_UpdateFactDifferentType)
+TEST(FactCollection, State_UpdateFactDifferentType)
 {
-    StoryState state;
+    FactCollection state;
     state.AddFact("Age", 20);
     
     EXPECT_NO_THROW(state.UpdateFact("Age", std::string("Twenty")));
 }
 
-TEST(StoryState, State_BooleanFact)
+TEST(FactCollection, State_BooleanFact)
 {
-    StoryState state;
+    FactCollection state;
     state.AddFact("IsAdult", true);
     
     EXPECT_TRUE(state.GetFact<bool>("IsAdult"));
 }
 
-TEST(StoryState, State_AddSameFactTwice)
+TEST(FactCollection, State_AddSameFactTwice)
 {
-    StoryState state;
+    FactCollection state;
     state.AddFact("Age", 20);
     state.AddFact("Age", 30);
     
@@ -79,9 +79,9 @@ TEST(StoryState, State_AddSameFactTwice)
     EXPECT_TRUE(age == 20);
 }
 
-TEST(StoryState, CheckQuery_AllValid)
+TEST(FactCollection, CheckQuery_AllValid)
 {
-    StoryState state;
+    FactCollection state;
     state.AddFact("A", 5);
     state.AddFact("B", 10);
     state.AddFact("C", 15);
@@ -93,9 +93,9 @@ TEST(StoryState, CheckQuery_AllValid)
     assert(state.CheckQuery(query));
 }
 
-TEST(StoryState, CheckQuery_OneInvalid)
+TEST(FactCollection, CheckQuery_OneInvalid)
 {
-    StoryState state;
+    FactCollection state;
     state.AddFact("A", 5);
     state.AddFact("B", 10);
     state.AddFact("C", 15);
@@ -107,9 +107,9 @@ TEST(StoryState, CheckQuery_OneInvalid)
     assert(!state.CheckQuery(query));
 }
 
-TEST(StoryState, CheckQuery_MixedTypes)
+TEST(FactCollection, CheckQuery_MixedTypes)
 {
-    StoryState state;
+    FactCollection state;
     state.AddFact("A", 5);
     state.AddFact("B", std::string("test"));
 
@@ -120,9 +120,9 @@ TEST(StoryState, CheckQuery_MixedTypes)
     assert(state.CheckQuery(query));
 }
 
-TEST(StoryState, CheckQuery_MissingFact)
+TEST(FactCollection, CheckQuery_MissingFact)
 {
-    StoryState state;
+    FactCollection state;
     state.AddFact("A", 5);
     state.AddFact("B", 10);
 

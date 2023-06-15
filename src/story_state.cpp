@@ -7,9 +7,9 @@
 #include <type_traits>
 
 #include "dialogue_driver/fact.h"
-#include "dialogue_driver/story_state.h"
+#include "dialogue_driver/fact_collection.h"
 
-bool StoryState::_ContainsFact(std::string factName) const
+bool FactCollection::_ContainsFact(std::string factName) const
 {
     if (this->_facts.find(factName) == this->_facts.end())
     { // Fact not found

@@ -10,7 +10,7 @@
 
 #include "fact.h"
 #include "operator.h"
-#include "story_state.h"
+#include "fact_collection.h"
 #include "icriteria.h"
 
 class CombinedCriteria : public ICriteria
@@ -37,7 +37,7 @@ public:
         _lhs(other._lhs), _rhs(other._rhs), _operation(other._operation), _verifyFunction(other._verifyFunction){}
     
     // * Methods   
-    bool VerifyCriteria(const StoryState &state) const;
+    bool VerifyCriteria(const FactCollection &state) const;
 
 private:
     std::shared_ptr<ICriteria> _lhs;

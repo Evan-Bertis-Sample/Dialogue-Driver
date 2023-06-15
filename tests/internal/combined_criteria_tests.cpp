@@ -2,7 +2,7 @@
 
 #include "gtest/gtest.h"
 #include "dialogue_driver/fact.h"
-#include "dialogue_driver/story_state.h"
+#include "dialogue_driver/fact_collection.h"
 #include "dialogue_driver/icriteria.h"
 #include "dialogue_driver/operator.h"
 #include "dialogue_driver/expression.h"
@@ -11,7 +11,7 @@
 
 TEST(CombinedCriteria, Both_Valid)
 {
-    StoryState state;
+    FactCollection state;
     state.AddFact("lhs", 1.0f);
     state.AddFact("rhs", 1.0f);
 
@@ -25,7 +25,7 @@ TEST(CombinedCriteria, Both_Valid)
 
 TEST(CombinedCriteria, One_Invalid)
 {
-    StoryState state;
+    FactCollection state;
     state.AddFact("A", 1.0f);
     state.AddFact("B", 2.0f);
 
@@ -39,7 +39,7 @@ TEST(CombinedCriteria, One_Invalid)
 
 TEST(CombinedCriteria, Both_Invalid)
 {
-    StoryState state;
+    FactCollection state;
     state.AddFact("A", 1.0f);
     state.AddFact("B", 2.0f);
 
@@ -53,7 +53,7 @@ TEST(CombinedCriteria, Both_Invalid)
 
 TEST(CombinedCriteria, Or_Operator)
 {
-    StoryState state;
+    FactCollection state;
     state.AddFact("A", 1.0f);
     state.AddFact("B", 2.0f);
 
@@ -67,7 +67,7 @@ TEST(CombinedCriteria, Or_Operator)
 
 TEST(CombinedCriteria, Or_Operator_AllInvalid)
 {
-    StoryState state;
+    FactCollection state;
     state.AddFact("A", 1.0f);
     state.AddFact("B", 2.0f);
 

@@ -1,5 +1,5 @@
-#ifndef STORY_STATE_H
-#define STORY_STATE_H
+#ifndef FACT_COLLECTION_H
+#define FACT_COLLECTION_H
 
 #pragma once
 
@@ -13,8 +13,8 @@
 #include "expression.h"
 #include "query.h"
 
-/// @brief Stores the state of a "story"
-class StoryState {
+/// @brief Stores a collection of facts
+class FactCollection {
 public:
     // ! template methods are my enemy
 

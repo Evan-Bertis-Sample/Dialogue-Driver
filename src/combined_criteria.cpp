@@ -10,7 +10,7 @@
 #include "dialogue_driver/combined_criteria.h"
 #include "dialogue_driver/operator.h"
 
-bool CombinedCriteria::VerifyCriteria(const StoryState &state) const
+bool CombinedCriteria::VerifyCriteria(const FactCollection &state) const
 {
     bool lhs = this->_lhs->VerifyCriteria(state);
     bool rhs = this->_rhs->VerifyCriteria(state);

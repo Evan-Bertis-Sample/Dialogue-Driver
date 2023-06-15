@@ -8,7 +8,7 @@
 
 #include "fact.h"
 #include "operator.h"
-#include "story_state.h"
+#include "fact_collection.h"
 #include "icriteria.h"
 
 class Expression : public ICriteria
@@ -31,7 +31,7 @@ public:
     }
 
     // * Methods
-    bool VerifyCriteria(const StoryState &state) const override;
+    bool VerifyCriteria(const FactCollection &state) const override;
 
 private:
     std::string _lhsFactName;

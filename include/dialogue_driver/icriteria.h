@@ -7,16 +7,16 @@
 
 #include "fact.h"
 #include "operator.h"
-#include "story_state.h"
+#include "fact_collection.h"
 
 // Notify the compiler that this class will be defined
-class StoryState;
+class FactCollection;
 
 class ICriteria
 {
 public:
     // Given a StoryState, verify if the given criteria is met
-    virtual bool VerifyCriteria(const StoryState &state) const
+    virtual bool VerifyCriteria(const FactCollection &state) const
     {
         return false;
     }
