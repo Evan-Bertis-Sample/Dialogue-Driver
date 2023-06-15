@@ -9,6 +9,9 @@
 #include "operator.h"
 #include "story_state.h"
 
+// Notify the compiler that this class will be defined
+class StoryState;
+
 class ICriteria
 {
 public:

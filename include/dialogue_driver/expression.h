@@ -16,11 +16,16 @@ class Expression : public ICriteria
 public:
     // * Constructors
     template <typename T>
-    Expression(std::string fact, COMPARISON_OPERATOR op, T _rhs);
+    Expression(std::string fact, COMPARISON_OPERATOR op, T rhs) : _factName(fact), _operation(op), _rhs(Fact(rhs)){};
 
-    Expression();
+    Expression() : _factName(std::string()), _operation(COP_EQUAL), _rhs(Fact()){};
 
-    Expression(const Expression &other);
+    Expression(const Expression &other)
+    {
+        this->_factName = other._factName;
+        this->_operation = other._operation;
+        this->_rhs = other._rhs;
+    }
 
     // * Methods
     bool VerifyCriteria(const StoryState &state) const;

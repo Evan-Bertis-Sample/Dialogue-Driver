@@ -96,6 +96,7 @@ public:
             return;
         }
 
+        // std::cout << "Changing data from '" << data << "' to '" << data << "'" << std::endl;
         if (this->_VerifyType<T>()) this->_data = data;
     }
 
@@ -104,7 +105,7 @@ public:
     {
         if (this->_isValid == false)
         {
-            throw new std::logic_error("Cannot Get from NULL fact!");
+            throw std::logic_error("Cannot Get from NULL fact!");
         }
 
         return std::get<T>(this->_data);
