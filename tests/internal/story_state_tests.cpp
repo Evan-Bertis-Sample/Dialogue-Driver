@@ -1,9 +1,13 @@
 #include <iostream>
+#include <string>
+#include <memory>
 
 #include "gtest/gtest.h"
 #include "dialogue_driver/driver.h"
 #include "dialogue_driver/fact.h"
 #include "dialogue_driver/story_state.h"
+#include "dialogue_driver/icriteria.h"
+#include "dialogue_driver/expression.h"
 
 TEST(StoryState, State_Addition)
 {
@@ -74,3 +78,58 @@ TEST(StoryState, State_AddSameFactTwice)
     int age = state.GetFact<int>("Age");
     EXPECT_TRUE(age == 20);
 }
+
+TEST(StoryState, CheckQuery_AllValid)
+{
+    StoryState state;
+    state.AddFact("A", 5);
+    state.AddFact("B", 10);
+    state.AddFact("C", 15);
+
+    Query query;
+    query.AddCriteria(Expression("A", COP_LT, "B"));
+    query.AddCriteria(Expression("B", COP_LT, "C"));
+
+    assert(state.CheckQuery(query));
+}
+
+TEST(StoryState, CheckQuery_OneInvalid)
+{
+    StoryState state;
+    state.AddFact("A", 5);
+    state.AddFact("B", 10);
+    state.AddFact("C", 15);
+
+    Query query;
+    query.AddCriteria(Expression("A", COP_GT, "B"));  // This is false
+    query.AddCriteria(Expression("B", COP_LT, "C"));
+
+    assert(!state.CheckQuery(query));
+}
+
+TEST(StoryState, CheckQuery_MixedTypes)
+{
+    StoryState state;
+    state.AddFact("A", 5);
+    state.AddFact("B", std::string("test"));
+
+    Query query;
+    query.AddCriteria(Expression("A", COP_EQUAL, "A"));
+    query.AddCriteria(Expression("B", COP_EQUAL, "B"));
+
+    assert(state.CheckQuery(query));
+}
+
+TEST(StoryState, CheckQuery_MissingFact)
+{
+    StoryState state;
+    state.AddFact("A", 5);
+    state.AddFact("B", 10);
+
+    Query query;
+    query.AddCriteria(Expression("A", COP_EQUAL, "C"));  // Fact "C" is not present
+
+    assert(!state.CheckQuery(query));
+}
+
+

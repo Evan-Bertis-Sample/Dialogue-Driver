@@ -7,23 +7,29 @@
 #include <string>
 #include <functional>
 #include <vector>
+#include <memory>
 
 #include "icriteria.h"
+#include "expression.h"
+#include "query.h"
 
 /// @brief Stores the state of a "story"
 class StoryState {
 public:
     // ! template methods are my enemy
-    template<typename T>
-    bool CheckQuery(std::vector<ICriteria> criteria) const
+
+    bool CheckQuery(const Query &query) const
     {
-        for (const ICriteria &crit : criteria)
+        Query::CriteriaCollection criteria = query.GetCriteria();
+
+        for (const auto &crit : criteria)
         {
-            if (crit.VerifyCriteria(*this) == false)
+            if (crit->VerifyCriteria(*this) == false)
                 return false;
+            std::cout << "Moving onto next criteria" << std::endl;
         }
 
-        return false;
+        return true;
     }
 
     template<typename T>

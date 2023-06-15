@@ -31,7 +31,7 @@ public:
     }
 
     // * Methods
-    bool VerifyCriteria(const StoryState &state) const;
+    bool VerifyCriteria(const StoryState &state) const override;
 
 private:
     std::string _lhsFactName;
