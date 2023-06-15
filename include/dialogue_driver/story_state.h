@@ -51,6 +51,15 @@ public:
         return fact.Get<T>();
     }
 
+    Fact GetFact(std::string factName) const
+    {
+        if (!this->_ContainsFact(factName))
+            throw std::out_of_range("Cannot find Fact1");
+
+        Fact fact = this->_facts.at(factName);
+        return fact;
+    }
+
 private:
     std::map<std::string, Fact> _facts;
 

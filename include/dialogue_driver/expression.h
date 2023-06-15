@@ -15,28 +15,31 @@ class Expression : public ICriteria
 {
 public:
     // * Constructors
-    template <typename T>
-    Expression(std::string fact, COMPARISON_OPERATOR op, T rhs) : _factName(fact), _operation(op), _rhs(Fact(rhs)){};
+    Expression(std::string lhsFact, COMPARISON_OPERATOR op, std::string rhsFact) : _lhsFactName(lhsFact), _operation(op), _rhsFactName(rhsFact)
+    {
+        this->_verifyFunction = _BuildExpression(op);
+    };
 
-    Expression() : _factName(std::string()), _operation(COP_EQUAL), _rhs(Fact()){};
+    Expression() : _lhsFactName(std::string()), _operation(COP_EQUAL), _rhsFactName(std::string()) {};
 
     Expression(const Expression &other)
     {
-        this->_factName = other._factName;
+        this->_lhsFactName = other._lhsFactName;
         this->_operation = other._operation;
-        this->_rhs = other._rhs;
+        this->_rhsFactName = other._rhsFactName;
+        this->_verifyFunction = other._verifyFunction;
     }
 
     // * Methods
     bool VerifyCriteria(const StoryState &state) const;
 
 private:
-    std::string _factName;
+    std::string _lhsFactName;
     COMPARISON_OPERATOR _operation;
-    Fact _rhs;
+    std::string _rhsFactName;
+    std::function<bool(Fact&, Fact&)> _verifyFunction;
 
-    template <typename T>
-    std::function<bool(T, T)> _BuildExpression(COMPARISON_OPERATOR op);
+    std::function<bool(Fact&, Fact&)> _BuildExpression(COMPARISON_OPERATOR op);
 };
 
 #endif // EXPRESSION_H

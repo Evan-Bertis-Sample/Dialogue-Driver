@@ -37,7 +37,7 @@ TEST(StoryState, State_GetFact)
 
 TEST(StoryState, State_GetNonExistentFact)
 {
-    StoryState state;
+    StoryState state; 
     
     EXPECT_THROW(state.GetFact<int>("NonExistent"), std::out_of_range);
 }

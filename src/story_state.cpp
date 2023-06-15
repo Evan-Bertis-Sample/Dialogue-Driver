@@ -1,4 +1,5 @@
 /* story_state.cpp */
+
 #include <map>
 #include <string>
 #include <functional>

@@ -42,7 +42,6 @@ private:
             // std::cout << "Comparing " << data << " to " << other << std::endl;
             return compareFunc(data, other);
         }
-
         // std::cout << "Mismatching type / Invalid Fact!" << std::endl;
         return false;
     }
@@ -52,7 +51,7 @@ public:
     // Primary constructor
     Fact() : _data(0), _isValid(false) {}
 
-    // Initialize a Fact with a given peice of data
+    // Initialize a Fact with a given piece of data
     template <typename T>
     Fact(T data)
     {
@@ -257,7 +256,7 @@ public:
         return this->_Compare(other, func);
     }
 
-    // * Deconstructors
+    // * Deconstructor
     ~Fact()
     {
         // if (std::holds_alternative<std::string*>(this->_data)) {
