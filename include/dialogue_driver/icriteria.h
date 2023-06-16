@@ -20,6 +20,11 @@ public:
     {
         return false;
     }
+
+    virtual int GetWeight() const
+    {
+        return 0;
+    }
 };
 
 #endif // ICRITERIA_H

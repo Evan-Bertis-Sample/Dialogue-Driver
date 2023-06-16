@@ -17,15 +17,15 @@ class CombinedCriteria : public ICriteria
 {
 public:
     // * Constructors
-    template <typename T>
-    CombinedCriteria(const T &lhs, LOGICAL_OPERATOR op,  const T &rhs):
+    template <typename T, typename K>
+    CombinedCriteria(const T &lhs, LOGICAL_OPERATOR op,  const K &rhs):
         _operation(op)
     {
-        if (!std::is_base_of<ICriteria, T>::value)
+        if (!std::is_base_of<ICriteria, T>::value || !std::is_base_of<ICriteria, K>::value)
             throw std::logic_error("Invalid type for Combined Criteria!");
 
         this->_lhs = std::make_shared<T>(lhs);
-        this->_rhs = std::make_shared<T>(rhs);
+        this->_rhs = std::make_shared<K>(rhs);
 
         this->_verifyFunction = this->_BuildExpression(op);
     }
@@ -37,7 +37,8 @@ public:
         _lhs(other._lhs), _rhs(other._rhs), _operation(other._operation), _verifyFunction(other._verifyFunction){}
     
     // * Methods   
-    bool VerifyCriteria(const FactCollection &state) const;
+    bool VerifyCriteria(const FactCollection &state) const override;
+    int GetWeight() const override;
 
 private:
     std::shared_ptr<ICriteria> _lhs;

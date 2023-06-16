@@ -26,6 +26,11 @@ bool Expression::VerifyCriteria(const FactCollection &state) const
     return false;
 }
 
+int Expression::GetWeight() const
+{
+    return 1;
+}
+
 std::function<bool(Fact&, Fact&)> Expression::_BuildExpression(COMPARISON_OPERATOR op)
 {
     switch (op)

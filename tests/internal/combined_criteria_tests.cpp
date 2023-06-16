@@ -78,3 +78,16 @@ TEST(CombinedCriteria, Or_Operator_AllInvalid)
 
     assert(!orExpr.VerifyCriteria(state)); // false OR false is false
 }
+
+TEST(CombinedCriteria, Weight)
+{
+    Expression expr1("A", COP_EQUAL, "B"); // This is false
+    Expression expr2("A", COP_EQUAL, "B"); // This is also false
+
+    CombinedCriteria orExpr(expr1, LOP_OR, expr2);
+
+    assert(orExpr.GetWeight() == 2);
+
+    CombinedCriteria compound(expr1, LOP_AND, orExpr);
+    assert(compound.GetWeight() == 3);
+}

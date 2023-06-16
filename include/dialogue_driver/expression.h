@@ -33,6 +33,8 @@ public:
     // * Methods
     bool VerifyCriteria(const FactCollection &state) const override;
 
+    int GetWeight() const override;
+
 private:
     std::string _lhsFactName;
     COMPARISON_OPERATOR _operation;

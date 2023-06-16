@@ -14,6 +14,7 @@
 #include "query.h"
 #include "fact_collection.h"
 #include "conversation.h"
+#include "story_entity.h"
 
 //
 // Stories are comprised of symbols, which can represent characters, locations, etc.
@@ -24,15 +25,17 @@ public:
     void AddSymbol(std::string collectionName, std::string symbol);
     void GetSymbol(std::string collectionName, int symbolID) const;
 
-    void Converse(std::string entryPoint) const;
+    StoryEntity GetActor(std::string actorName);
+    void Converse(std::Story_Entity entryPoint) const;
 
 private:
     FactCollection _state;
 
     typedef std::vector<std::string> _SymbolCollection;
-    std::map<std::string, _SymbolCollection> _symbolMap;
-
-    std::map<std::string, std::shared_ptr<Conversation>> _conversations;
+    std::map<std::string, _SymbolCollection> _symbols;
+    
+    std::map<std::string, StoryEntity> _actors;
+    std::map<StoryEntity, std::shared_ptr<Conversation>> _conversations;
 }
 
 #endif // STORY

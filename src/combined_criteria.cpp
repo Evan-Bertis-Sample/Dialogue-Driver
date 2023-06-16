@@ -18,6 +18,11 @@ bool CombinedCriteria::VerifyCriteria(const FactCollection &state) const
     return this->_verifyFunction(lhs, rhs);
 }
 
+int CombinedCriteria::GetWeight() const
+{
+    return this->_lhs->GetWeight() + this->_rhs->GetWeight();
+}
+
 std::function<bool(bool, bool)> CombinedCriteria::_BuildExpression(LOGICAL_OPERATOR op)
 {
     switch (op)

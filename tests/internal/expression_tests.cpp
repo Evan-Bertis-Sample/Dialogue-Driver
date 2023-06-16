@@ -164,3 +164,9 @@ TEST(Expression, Expression_MissingBothFacts)
 
     assert(!expression.VerifyCriteria(state));
 }
+
+TEST(Expression, Expression_Weight)
+{
+    Expression expression("lhs", COP_EQUAL, "rhs");
+    assert(expression.GetWeight() == 1); 
+}

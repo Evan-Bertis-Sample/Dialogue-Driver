@@ -27,6 +27,17 @@ public:
         return _collection;
     }
 
+    int GetWeight() const
+    {
+        int weight = 0;
+        for(auto &crit : _collection)
+        {
+            weight += crit->GetWeight();
+        }
+
+        return weight;
+    }
+
 private:
     CriteriaCollection _collection;
 };

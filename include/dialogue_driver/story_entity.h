@@ -15,7 +15,7 @@
 #include "conversation.h"
 
 
-class Story_Entity
+class StoryEntity
 {
 public:
     std::string GetName() const;
@@ -29,7 +29,6 @@ public:
     template<typename T>
     void UpdateAttribute(std::string attribute, T value);
 
-    
 private:
     std::string _name;
     FactCollection _attributes;
