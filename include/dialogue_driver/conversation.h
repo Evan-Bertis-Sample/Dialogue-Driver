@@ -18,9 +18,9 @@ class Conversation
 {
 public:
     // Something
-    void AddEntry(std::shared_ptr<EntryNode> entry);
+    void AddEntry(std::shared_ptr<ConversationNode> entry);
 private:
-    std::map<StoryEntity, std::vector<std::shared_ptr<EntryNode>> _entriesByEntity;
+    std::map<StoryEntity, std::vector<std::shared_ptr<ConversationNode>> _entriesByEntity;
 }
 
 #endif // CONVERSATION_H
