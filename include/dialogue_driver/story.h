@@ -22,11 +22,22 @@
 class Story
 {
 public:
+    // Create a Story given a fact collection.
+    // Once a story is made around a fact collection, you are unable to add facts that the story is comprised of.
+    Story(FactCollection factTemplate) :
+        _state(factTemplate) {}
+
+    Story(const Story &other);
+
     void AddSymbol(std::string collectionName, std::string symbol);
     void GetSymbol(std::string collectionName, int symbolID) const;
 
     StoryEntity GetActor(std::string actorName);
     void Converse(std::Story_Entity entryPoint) const;
+
+    template <typename T>
+    void UpdateFact(std::string name, T value);
+    bool CheckQuery(Query query) const;
 
 private:
     FactCollection _state;

@@ -1,5 +1,5 @@
-#ifndef CONVERSATION_COMMAND_H
-#define CONVERSATION_COMMAND_H
+#ifndef I_CONVERSATION_COMMAND_H
+#define I_CONVERSATION_COMMAND_H
 
 #pragma once
 
@@ -18,4 +18,4 @@ public:
     virtual void Execute(ConversationNode &node, Story &story) = 0;
 }
 
-#endif // CONVERSATION_COMMAND_H
+#endif // I_CONVERSATION_COMMAND_H
