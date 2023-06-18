@@ -33,7 +33,8 @@ This will clone this repo onto your computer. Then, we can commence the build pr
 cd Dialogue-Driver
 mkdir build
 cd build
-cmake .
+cmake ..
+cmake --build .
 make
 ```
 

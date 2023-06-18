@@ -13,12 +13,15 @@
 #include "conversation_node.h"
 #include "entry_node.h"
 #include "story_entity.h"
+#include "scene.h"
 
 class Conversation
 {
 public:
     // Something
     void AddEntry(std::shared_ptr<ConversationNode> entry);
+
+    void Converse(StoryEntity actor, Scene scene);
 private:
     std::map<StoryEntity, std::vector<std::shared_ptr<ConversationNode>> _entriesByEntity;
 }
