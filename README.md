@@ -35,7 +35,6 @@ mkdir build
 cd build
 cmake ..
 cmake --build .
-make
 ```
 
 If you are building the development version, you can ensure that the build was successful by running:
