@@ -25,9 +25,10 @@ public:
     // Create a Story given a fact collection.
     // Once a story is made around a fact collection, you are unable to add facts that the story is comprised of.
     Story(FactCollection factTemplate) :
-        _state(factTemplate) {}
+        _state(factTemplate) {};
 
-    Story(const Story &other);
+    // Story(const Story &other) :
+    //     _state(other._state), _symbols {};
 
     void AddSymbol(std::string collectionName, std::string symbol);
     void GetSymbol(std::string collectionName, int symbolID) const;
@@ -47,6 +48,6 @@ private:
     
     std::map<std::string, StoryEntity> _actors;
     std::map<StoryEntity, std::shared_ptr<Conversation>> _conversations;
-}
+};
 
 #endif // STORY

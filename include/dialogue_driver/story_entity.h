@@ -54,6 +54,6 @@ public:
 private:
     std::string _name;
     FactCollection _attributes;
-}
+};
 
 #endif // Story_Entity

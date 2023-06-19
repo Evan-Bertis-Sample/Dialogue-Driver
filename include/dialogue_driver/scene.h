@@ -15,12 +15,12 @@
 class Scene
 {
 public:
-    void AddAvailableActor(std::shared_ptr<StoryEntity> actor);
-    void RemoveActor(std::shared_ptr<StoryEntity> actor);
+    void AddAvailableActor(StoryEntity actor);
+    void RemoveActor(StoryEntity actor);
 
-    bool IsAvailable(std::shared_ptr<StoryEntity> actor);
+    bool IsAvailable(StoryEntity actor);
 private:
-    std::vector<std::shared_ptr<StoryEntity>> _availableActors;
-}
+    std::vector<StoryEntity> _availableActors;
+};
 
 #endif // SCENE_H

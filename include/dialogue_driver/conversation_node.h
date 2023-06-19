@@ -84,6 +84,6 @@ private:
     std::vector<std::shared_ptr<IConversationCommand>> _processCommands;
 
     void _DeleteNodeFromSet(std::shared_ptr<ConversationNode> nodePtr);
-}
+};
 
 #endif // CONVERSATION_NODE_H
