@@ -22,7 +22,10 @@ public:
     StoryEntity():
         _name(std::string("")), _attributes(FactCollection()) {};
 
-    std::string GetName() const;
+    std::string GetName() const
+    {
+        return this->_name;
+    }
 
     bool CheckQuery(const Query &query) const
     {

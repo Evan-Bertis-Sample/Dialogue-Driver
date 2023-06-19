@@ -8,6 +8,7 @@
 #include "dialogue_driver/story_entity.h"
 #include "dialogue_driver/query.h"
 #include "dialogue_driver/operator.h"
+#include "dialogue_driver/combined_criteria.h"
 
 TEST(StoryEntity, Basic_Operations)
 {
@@ -33,7 +34,7 @@ TEST(StoryEntity, CheckQuery_Single_Criteria)
     entity.AddAttribute("Health", 100);
 
     Query query;
-    query.AddCriteria(Expression("Health", COP_EQUAL, 100));
+    query.AddCriteria(ConstantExpression("Health", COP_EQUAL, 100));
 
     ASSERT_TRUE(entity.CheckQuery(query));
 }
@@ -45,8 +46,8 @@ TEST(StoryEntity, CheckQuery_Multiple_Criteria)
     entity.AddAttribute("Strength", 50);
 
     Query query;
-    query.AddCriteria(Expression("Health", COP_GT, 50));
-    query.AddCriteria(Expression("Strength", COP_LT, 100));
+    query.AddCriteria(ConstantExpression("Health", COP_GT, 50));
+    query.AddCriteria(ConstantExpression("Strength", COP_LT, 100));
 
     ASSERT_TRUE(entity.CheckQuery(query));
 }
@@ -58,8 +59,8 @@ TEST(StoryEntity, CheckQuery_Combined_Criteria)
     entity.AddAttribute("Strength", 50);
     entity.AddAttribute("Magic", 25);
 
-    Expression healthCriteria("Health", COP_EQUAL, 100);
-    Expression strengthCriteria("Strength", COP_GT, 30);
+    ConstantExpression healthCriteria("Health", COP_EQUAL, 100);
+    ConstantExpression strengthCriteria("Strength", COP_GT, 30);
 
     CombinedCriteria combined(healthCriteria, LOP_AND, strengthCriteria);
 
@@ -75,7 +76,7 @@ TEST(StoryEntity, CheckQuery_Negative)
     entity.AddAttribute("Health", 100);
 
     Query query;
-    query.AddCriteria(Expression("Health", COP_EQUAL, 50)); // this is not true
+    query.AddCriteria(ConstantExpression("Health", COP_EQUAL, 50)); // this is not true
 
     ASSERT_FALSE(entity.CheckQuery(query));
 }
@@ -86,7 +87,7 @@ TEST(StoryEntity, CheckQuery_MissingAttribute)
     entity.AddAttribute("Health", 100);
 
     Query query;
-    query.AddCriteria(Expression("Magic", COP_EQUAL, 50)); // Magic attribute does not exist
+    query.AddCriteria(ConstantExpression("Magic", COP_EQUAL, 50)); // Magic attribute does not exist
 
     ASSERT_FALSE(entity.CheckQuery(query));
 }

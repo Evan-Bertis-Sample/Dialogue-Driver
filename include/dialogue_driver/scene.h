@@ -18,7 +18,7 @@ public:
     void AddAvailableActor(StoryEntity actor);
     void RemoveActor(StoryEntity actor);
 
-    bool IsAvailable(StoryEntity actor);
+    bool IsAvailable(StoryEntity actor) {return true;}
 private:
     std::vector<StoryEntity> _availableActors;
 };

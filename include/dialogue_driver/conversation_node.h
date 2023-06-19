@@ -14,6 +14,8 @@
 #include "story_entity.h"
 #include "scene.h"
 
+class ConversationNode;
+
 typedef struct PriorityNode
 {
     int priority;
@@ -21,30 +23,32 @@ typedef struct PriorityNode
 
     struct Compare
     {
-        bool operator()(PriorityNode &below, PriorityNode &above)
+        bool operator()(const PriorityNode &below, const PriorityNode &above) const
         {
             return below.priority > above.priority;
         }
     };
 };
 
+class Story;
+class IConversationCommand;
 
 class ConversationNode
 {
 public:
     StoryEntity Speaker;
 
-    ConversationNode() {};
-    ConversationNode(StoryEntity speaker)
-        Speaker(speaker) {};
-    ConversationNode(const ConversationNode &other):
-    _successorsByPriority(other._successorsByPriority), _successors(other._successors), _processCommands(other._processCommands){};
+    ConversationNode(){};
+    ConversationNode(StoryEntity speaker) : Speaker(speaker) {}
+    ConversationNode(const ConversationNode &other) : _successorsByWeight(other._successorsByWeight), _successors(other._successors), _processCommands(other._processCommands) {}
 
     std::shared_ptr<ConversationNode> Next(Story &story, Scene &scene) const;
+
     std::vector<std::shared_ptr<ConversationNode>> GetPlausibleNext(Story &story, Scene &scene) const;
+
     bool IsPlausible(Scene &scene) const;
 
-    void Process(Story &story);
+    // void ProcessCommands(Story &story);
 
     bool ConnectNode(std::shared_ptr<ConversationNode> node);
     bool DisconnectNode(std::shared_ptr<ConversationNode> node);
@@ -70,7 +74,8 @@ public:
         }
 
         auto it = std::find(this->_processCommands.begin(), this->_processCommands.end(), command);
-        if (it = this->_processCommands.end()) return;
+        if (it = this->_processCommands.end())
+            return;
 
         this->_processCommands.erase(it);
     }
@@ -79,7 +84,7 @@ public:
 
 private:
     std::set<PriorityNode, PriorityNode::Compare> _successorsByWeight;
-    
+
     std::vector<std::shared_ptr<ConversationNode>> _successors;
     std::vector<std::shared_ptr<IConversationCommand>> _processCommands;
 
