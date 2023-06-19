@@ -11,7 +11,6 @@
 
 #include "story.h"
 #include "conversation_node.h"
-#include "entry_node.h"
 #include "story_entity.h"
 #include "scene.h"
 

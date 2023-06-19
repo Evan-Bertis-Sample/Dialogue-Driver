@@ -7,29 +7,39 @@
 #include <string>
 #include <vector>
 #include <memory>
-#include <queue>
+#include <set>
 
 #include "story.h"
 #include "i_conversation_command.h"
 #include "story_entity.h"
 #include "scene.h"
 
+typedef struct PriorityNode
+{
+    int priority;
+    std::shared_ptr<ConversationNode> node;
+}
+
+class PriorityNodeCompare {
+public:
+    bool operator()(PriorityNode &below, PriorityNode &above)
+    {
+        return below.priority > above.priority;
+    }
+}
+
 class ConversationNode
 {
 public:
-    typedef struct
-    {
-        int priority;
-        std::shared_ptr<ConversationNode> node;
-    } PriorityNode;
-
     StoryEntity Speaker;
 
-    ConversationNode();
-    ConversationNode(const ConversationNode &other);
+    ConversationNode() {};
+    ConversationNode(const ConversationNode &other):
+    _successorsByPriority(other._successorsByPriority), _successors(other._successors), _processCommands(other._processCommands){};
 
-    void std::shared_ptr<ConversationNode> Next(Story &story, Scene &scene) const;
-    void std::vector<std::shared_ptr<ConversationNode>> GetPlausibleNext(Story &story, Scene &scene) const;
+    std::shared_ptr<ConversationNode> Next(Story &story, Scene &scene) const;
+    std::vector<std::shared_ptr<ConversationNode>> GetPlausibleNext(Story &story, Scene &scene) const;
+    bool IsPlausible(Scene &scene) const;
 
     void Process(Story &story);
 
@@ -41,10 +51,11 @@ public:
     template <typename T>
     void RemoveCommand(T command);
 
-    void UpdateSuccessorPriority(std::shared_ptr<ConversationNode>, )
+    void UpdateSuccessorPriority(std::shared_ptr<ConversationNode>, int newPriority);
 
 private:
-    typedef 
+    std::set<PriorityNode, PriorityNodeCompare> _successorsByWeight;
+    
     std::vector<std::shared_ptr<ConversationNode>> _successors;
     std::vector<std::shared_ptr<IConversationCommand>> _processCommands;
 }
