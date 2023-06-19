@@ -5,10 +5,10 @@
 #include <vector>
 #include <memory>
 
-#include "i_conversation_command.h"
-#include "story_entity.h"
-#include "scene.h"
-#include "conversation_node.h"
+#include "dialogue_driver/i_conversation_command.h"
+#include "dialogue_driver/story_entity.h"
+#include "dialogue_driver/scene.h"
+#include "dialogue_driver/conversation_node.h"
 
 std::shared_ptr<ConversationNode> ConversationNode::Next(Story &story, Scene &scene) const
 {

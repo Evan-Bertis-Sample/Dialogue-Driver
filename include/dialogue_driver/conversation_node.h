@@ -35,6 +35,8 @@ public:
     StoryEntity Speaker;
 
     ConversationNode() {};
+    ConversationNode(StoryEntity speaker)
+        Speaker(speaker) {};
     ConversationNode(const ConversationNode &other):
     _successorsByPriority(other._successorsByPriority), _successors(other._successors), _processCommands(other._processCommands){};
 
