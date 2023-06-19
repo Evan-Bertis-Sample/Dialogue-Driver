@@ -15,6 +15,8 @@
 class IConversationCommand
 {
 public:
+    // A method that can be called async that controls the flow of a conversation,
+    // what may be output from a conversation, or anything else, really.
     virtual void Execute(ConversationNode &node, Story &story) = 0;
 }
 

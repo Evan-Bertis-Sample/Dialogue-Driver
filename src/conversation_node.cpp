@@ -12,15 +12,15 @@
 
 std::shared_ptr<ConversationNode> ConversationNode::Next(Story &story, Scene &scene) const
 {
-    std::shared_ptr<ConversationNode> next = nullptr;
-
-    while (!this->_successorsByPriority.empty())
+    for (auto &pNode : this->_successorsByWeight)
     {
-        next = this->_successorsByWeight.top();
-        if (next->IsPlausible(scene)) break;
+        if (pNode.node->IsPlausible(scene))
+        {
+            return pNode;   
+        }
     }
 
-    return next;
+    return nullptr;
 }
 
 std::vector<std::shared_ptr<ConversationNode>> ConversationNode::GetPlausibleNext(Story &story, Scene &scene)
@@ -69,6 +69,8 @@ bool ConversationNode::ConnectNode(std::shared_ptr<ConversationNode> node)
     if (found == this->_successors.end()) return false;
 
     this->_successors.push_back(node);
+    PriorityNode tempNode {this->_successors.size(), node};
+    this->_successorsByWeight.insert(tempNode);
     return true;
 }
 
@@ -78,10 +80,39 @@ bool ConversationNode::DisconnectNode(std::shared_ptr<ConversationNode> node)
     if (found == this->_successors.end()) return false;
 
     this->_successors.erase(found);
+    this->_DeleteNodeFromSet(node);
     return true;
 }
 
-void ConversationNode::UpdateSuccessorPriority(std::shared_ptr<ConversationNode>, int newPriority)
+std::shared_ptr<ConversationNode> ConversationNode::GetNode(int nodeIndex)
 {
-    
+    if (nodeIndex > this->_successors.size())
+    {
+        throw std::out_of_range("Successor Node cannot be found!");
+    }
+
+    return this->_successors[nodeIndex];
+}
+
+void ConversationNode::UpdateSuccessorPriority(std::shared_ptr<ConversationNode> nodePtr, int newPriority)
+{
+    this->_DeleteNodeFromSet(nodePtr);
+
+    // Create a temporary PriorityNode with the new priority and shared_ptr
+    PriorityNode tempPriorityNode{ newPriority, nodePtr };
+    // Insert the new PriorityNode with updated priority
+    this->_successorsByWeight.insert(tempPriorityNode);
+}
+
+void ConversationNode::_DeleteNodeFromSet(std::shared_ptr<ConversationNode> nodePtr)
+{
+    // Find the existing PriorityNode in the set with the same node
+    auto it = std::find_if(this->_successorsByWeight.begin(), this->_successorsByWeight.end(), [&](const PriorityNode& pNode) {
+        return pNode.node.get() == nodePtr.get();
+    });
+
+    if (it != this->_successorsByWeight.end()) {
+        // Erase the existing PriorityNode from the set
+        this->_successorsByWeight.erase(it);
+    }
 }
