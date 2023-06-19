@@ -8,8 +8,8 @@
 #include <functional>
 #include <vector>
 #include <memory>
+#include <string>
 
-#include "icriteria.h"
 #include "expression.h"
 #include "query.h"
 #include "fact_collection.h"
@@ -25,7 +25,7 @@ public:
     // Create a Story given a fact collection.
     // Once a story is made around a fact collection, you are unable to add facts that the story is comprised of.
     Story(FactCollection factTemplate) :
-        _state(factTemplate) {};
+        _state(factTemplate) {}
 
     // Story(const Story &other) :
     //     _state(other._state), _symbols {};
@@ -34,7 +34,7 @@ public:
     void GetSymbol(std::string collectionName, int symbolID) const;
 
     StoryEntity GetActor(std::string actorName);
-    void Converse(std::Story_Entity entryPoint) const;
+    void Converse(StoryEntity entryPoint) const;
 
     template <typename T>
     void UpdateFact(std::string name, T value);

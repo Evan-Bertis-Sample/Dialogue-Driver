@@ -7,12 +7,8 @@
 #include <vector>
 #include <memory>
 
-#include "icriteria.h"
-#include "expression.h"
 #include "query.h"
 #include "fact_collection.h"
-#include "conversation.h"
-
 
 class StoryEntity
 {
