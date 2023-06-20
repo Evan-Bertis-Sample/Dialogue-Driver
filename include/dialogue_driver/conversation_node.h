@@ -81,6 +81,11 @@ public:
         this->_processCommands.erase(it);
     }
 
+    std::vector<std::shared_ptr<IConversationCommand>> GetCommands()
+    {
+        return this->_processCommands;
+    }
+
     void UpdateSuccessorPriority(std::shared_ptr<ConversationNode>, int newPriority);
 
 private:
