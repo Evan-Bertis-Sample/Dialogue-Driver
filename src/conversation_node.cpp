@@ -56,13 +56,13 @@ bool ConversationNode::IsPlausible(Scene &scene) const
     return false; // No plausible successors, therefore this branch is void
 }
 
-// void ConversationNode::ProcessCommands(Story &story)
-// {
-//     for (auto &command : this->_processCommands)
-//     {
-//         command->Execute(*this, story);
-//     }
-// }
+void ConversationNode::ProcessCommands(Story &story)
+{
+    for (auto &command : this->_processCommands)
+    {
+        command->Execute(*this, story);
+    }
+}
 
 bool ConversationNode::ConnectNode(std::shared_ptr<ConversationNode> node)
 {

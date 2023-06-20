@@ -17,8 +17,8 @@ class Scene
 public:
     void AddAvailableActor(StoryEntity actor);
     void RemoveActor(StoryEntity actor);
-
-    bool IsAvailable(StoryEntity actor) {return true;}
+    bool IsAvailable(StoryEntity actor) const;
+    
 private:
     std::vector<StoryEntity> _availableActors;
 };

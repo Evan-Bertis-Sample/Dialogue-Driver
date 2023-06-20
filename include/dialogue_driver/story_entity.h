@@ -13,6 +13,7 @@
 class StoryEntity
 {
 public:
+    // * Constructors 
     StoryEntity(std::string name):
         _name(name) {};
     
@@ -22,6 +23,7 @@ public:
     StoryEntity():
         _name(std::string("")), _attributes(FactCollection()) {};
 
+    // * Public Methods
     std::string GetName() const
     {
         return this->_name;
@@ -48,6 +50,12 @@ public:
     void UpdateAttribute(std::string attribute, T value)
     {
         this->_attributes.UpdateFact(attribute, value);
+    }
+
+    // * Operators
+    bool operator ==(const StoryEntity &other) const
+    {
+        return (this->_name == other._name) && (this->_attributes == this->_attributes);
     }
 
 private:

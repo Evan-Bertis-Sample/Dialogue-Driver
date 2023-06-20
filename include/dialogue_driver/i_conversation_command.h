@@ -12,6 +12,9 @@
 #include "story.h"
 #include "conversation_node.h"
 
+class ConversationNode;
+class Story;
+
 class IConversationCommand
 {
 public:

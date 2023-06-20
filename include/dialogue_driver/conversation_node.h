@@ -32,6 +32,7 @@ typedef struct PriorityNode
 
 class Story;
 class IConversationCommand;
+class Scene;
 
 class ConversationNode
 {
@@ -48,7 +49,7 @@ public:
 
     bool IsPlausible(Scene &scene) const;
 
-    // void ProcessCommands(Story &story);
+    void ProcessCommands(Story &story);
 
     bool ConnectNode(std::shared_ptr<ConversationNode> node);
     bool DisconnectNode(std::shared_ptr<ConversationNode> node);

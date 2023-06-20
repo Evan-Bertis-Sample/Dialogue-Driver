@@ -16,8 +16,7 @@
 /// @brief Stores a collection of facts
 class FactCollection {
 public:
-    // ! template methods are my enemy
-
+    // * Public Methods
     bool CheckQuery(const Query &query) const
     {
         Query::CriteriaCollection criteria = query.GetCriteria();
@@ -63,6 +62,17 @@ public:
 
         Fact fact = this->_facts.at(factName);
         return fact;
+    }
+
+    // * Operators
+    bool operator ==(const FactCollection &other) const
+    {
+        for (const auto &[key, value] : other._facts)
+        {
+            if (this->_ContainsFact(key) == false) return false;
+        }
+
+        return true;
     }
 
 private:
