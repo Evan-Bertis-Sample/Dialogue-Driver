@@ -13,7 +13,7 @@ TEST(Facts, Fact_Construction)
     Fact floatFact(3.14f);
     ASSERT_FLOAT_EQ(floatFact.Get<float>(), 3.14f);
 
-    Fact stringFact("Hello");
+    Fact stringFact(std::string("Hello"));
     ASSERT_EQ(stringFact.Get<std::string>(), "Hello");
 
     Fact boolFact(true);
@@ -98,7 +98,7 @@ TEST(Facts, Fact_Copy_Constructor)
 
     ASSERT_EQ(originalIntFact.Get<int>(), copiedIntFact.Get<int>());
 
-    Fact originalStringFact("Hello");
+    Fact originalStringFact(std::string("Hello"));
     Fact copiedStringFact(originalStringFact);
 
     ASSERT_EQ(originalStringFact.Get<std::string>(), copiedStringFact.Get<std::string>());
@@ -111,8 +111,8 @@ TEST(Facts, Fact_Comparison_Operators)
     Fact intFact2 = Fact(10);
     Fact floatFact1 = Fact(5.0f);
     Fact floatFact2 = Fact(10.0f);
-    Fact stringFact1 = Fact("Hello");
-    Fact stringFact2 = Fact("World");
+    Fact stringFact1 = Fact(std::string("Hello"));
+    Fact stringFact2 = Fact(std::string("World"));
 
     // Test with integer Facts
     ASSERT_FALSE(intFact1 > intFact2);
@@ -214,9 +214,9 @@ TEST(Facts, Fact_Complex_Comparison_Bool)
 // Fact Comparisons with different string values
 TEST(Facts, Fact_Complex_Comparison_String)
 {
-    Fact stringFact1("apple");
-    Fact stringFact2("banana");
-    Fact stringFact3("apple");
+    Fact stringFact1(std::string("apple"));
+    Fact stringFact2(std::string("banana"));
+    Fact stringFact3(std::string("apple"));
 
     ASSERT_FALSE(stringFact1 == stringFact2);
     ASSERT_TRUE(stringFact1 == stringFact3);
@@ -268,7 +268,7 @@ TEST(Facts, Fact_Comparison_With_Boolean_Constants)
 // Fact Comparisons with string constants
 TEST(Facts, Fact_Comparison_With_String_Constants)
 {
-    Fact stringFact("Hello, world!");
+    Fact stringFact(std::string("Hello, world!"));
 
     ASSERT_TRUE(stringFact == std::string("Hello, world!"));
     ASSERT_FALSE(stringFact == std::string("Goodbye, world!"));

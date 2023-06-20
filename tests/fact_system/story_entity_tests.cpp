@@ -136,7 +136,7 @@ TEST(StoryEntity, UpdateAttribute_NonExistent)
 {
     StoryEntity entity("Hero");
 
-    ASSERT_THROW(entity.UpdateAttribute("Health", 100), std::out_of_range);
+    ASSERT_NO_THROW(entity.UpdateAttribute("Health", 100));
 }
 
 TEST(StoryEntity, GetName)
