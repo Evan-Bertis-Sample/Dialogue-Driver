@@ -56,11 +56,11 @@ bool ConversationNode::IsPlausible(Scene &scene) const
     return false; // No plausible successors, therefore this branch is void
 }
 
-void ConversationNode::ProcessCommands(Story &story)
+void ConversationNode::ProcessCommands(Story &story, IOBridge &bridge)
 {
     for (auto &command : this->_processCommands)
     {
-        command->Execute(*this, story);
+        command->Execute(*this, story, bridge);
     }
 }
 

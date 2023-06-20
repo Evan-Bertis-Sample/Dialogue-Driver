@@ -15,6 +15,7 @@
 #include "fact_collection.h"
 #include "conversation.h"
 #include "story_entity.h"
+#include "iobridge.h"
 
 //
 // Stories are comprised of symbols, which can represent characters, locations, etc.
@@ -34,7 +35,7 @@ public:
     void GetSymbol(std::string collectionName, int symbolID) const;
 
     StoryEntity GetActor(std::string actorName);
-    void Converse(StoryEntity entryPoint) const;
+    void Converse(StoryEntity &entryPoint, IOBridge &bridge);
 
     template <typename T>
     void UpdateFact(std::string name, T value);

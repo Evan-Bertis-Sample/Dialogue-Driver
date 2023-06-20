@@ -13,6 +13,7 @@
 #include "i_conversation_command.h"
 #include "story_entity.h"
 #include "scene.h"
+#include "iobridge.h"
 
 class ConversationNode;
 
@@ -49,7 +50,7 @@ public:
 
     bool IsPlausible(Scene &scene) const;
 
-    void ProcessCommands(Story &story);
+    void ProcessCommands(Story &story, IOBridge &bridge);
 
     bool ConnectNode(std::shared_ptr<ConversationNode> node);
     bool DisconnectNode(std::shared_ptr<ConversationNode> node);

@@ -6,13 +6,14 @@
 #include <functional>
 #include <memory>
 
-typedef std::function<void(std::string)> OutputHandler;
-typedef std::function<int(std::vector<std::string>)> InputHandler;
+typedef std::function<void(std::string&)> OutputHandler;
+typedef std::function<int(std::vector<std::string>&)> InputHandler;
 class IOBridge
 {
 public:
-    IOBridge(OutputHandler outputHandler, InputHandler inputHandler) :
+    IOBridge(const OutputHandler& outputHandler, const InputHandler& inputHandler) :
         _outputHandler(outputHandler), _inputHandler(inputHandler) {}
+
 
     IOBridge(const IOBridge &other):
         _outputHandler(other._outputHandler), _inputHandler(other._inputHandler) {}
@@ -22,7 +23,7 @@ public:
         this->_outputHandler(content);
     }
 
-    int GetChoice(std::vector<std::string> choices)
+    int GetChoice(std::vector<std::string> &choices)
     {
         return this->_inputHandler(choices);
     }

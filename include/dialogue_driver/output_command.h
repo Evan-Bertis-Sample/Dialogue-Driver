@@ -6,6 +6,7 @@
 #include <iostream>
 
 #include "i_conversation_command.h"
+#include "iobridge.h"
 
 class OutputCommand : public IConversationCommand
 {
@@ -18,9 +19,10 @@ public:
     OutputCommand(const OutputCommand &other) : Content(other.Content) {}
 
     // * Virtual Functions
-    void Execute(ConversationNode &node, Story &story) override
+    void Execute(ConversationNode &node, Story &story, IOBridge &bridge) override
     {
         std::cout << "Executing output command!" << std::endl;
+        bridge.DisplayContent(this->Content);
     }
 };
 
