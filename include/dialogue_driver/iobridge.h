@@ -11,6 +11,8 @@ typedef std::function<int(std::vector<std::string>&)> InputHandler;
 class IOBridge
 {
 public:
+    IOBridge() {}
+
     IOBridge(const OutputHandler& outputHandler, const InputHandler& inputHandler) :
         _outputHandler(outputHandler), _inputHandler(inputHandler) {}
 

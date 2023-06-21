@@ -75,8 +75,13 @@ public:
             throw std::logic_error("Invalid type of ConversationCommand!");
         }
 
-        auto it = std::find(this->_processCommands.begin(), this->_processCommands.end(), command);
-        if (it = this->_processCommands.end())
+        auto it = std::find_if(this->_processCommands.begin(), this->_processCommands.end(), [] (const std::shared_ptr<IConversationCommand> &lhs, const std::shared_ptr<IConversationCommand> &rhs)
+        {
+            auto lhsCast = std::dynamic_pointer_cast<T>(lhs);
+            auto rhsCast = std::dynamic_pointer_cast<T>(rhs);
+            return lhsCast == rhsCast;
+        });
+        if (it == this->_processCommands.end())
             return;
 
         this->_processCommands.erase(it);

@@ -24,6 +24,12 @@ public:
         std::cout << "Executing output command!" << std::endl;
         bridge.DisplayContent(this->Content);
     }
+
+    // * Operator
+    bool operator == (const OutputCommand &other) const
+    {
+        return this->Content == other.Content;
+    }
 };
 
 #endif // OUTPUT_COMMAND_H
