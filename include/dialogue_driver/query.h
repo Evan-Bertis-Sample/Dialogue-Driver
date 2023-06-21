@@ -38,6 +38,12 @@ public:
         return weight;
     }
 
+    // * Operators
+    bool operator ==(const Query &other) const
+    {
+        return this->_collection == other._collection;
+    }
+
 private:
     CriteriaCollection _collection;
 };

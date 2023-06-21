@@ -39,6 +39,13 @@ public:
     {
         return state.CheckQuery(_criteria);
     }
+
+    // * Operators
+    bool operator ==(const EntryNode &other) const
+    {
+        return *(this->Next) == *(this->Next) && this->_criteria == other._criteria;
+    }
+
 private:
     Query _criteria;
 };

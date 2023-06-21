@@ -58,6 +58,11 @@ public:
         return (this->_name == other._name) && (this->_attributes == this->_attributes);
     }
 
+    bool operator !=(const StoryEntity &other) const
+    {
+        return !(*this == other);
+    }
+
     bool operator<(const StoryEntity& other) const
     {
         // You can define the order as per your requirements.

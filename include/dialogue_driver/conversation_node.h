@@ -49,7 +49,7 @@ public:
     std::vector<std::shared_ptr<ConversationNode>> GetPlausibleNext(Story &story, Scene &scene) const;
 
     bool IsPlausible(Scene &scene) const;
-    
+
     void ProcessCommands(Story &story, IOBridge &bridge);
 
     bool ConnectNode(std::shared_ptr<ConversationNode> node);
@@ -88,6 +88,46 @@ public:
     }
 
     void UpdateSuccessorPriority(std::shared_ptr<ConversationNode>, int newPriority);
+
+    // * Operators
+    bool operator==(const ConversationNode &other) const
+    {
+        if (this->Speaker != other.Speaker)
+        {
+            return false;
+        }
+
+        if (this->_successors.size() != other._successors.size())
+        {
+            return false;
+        }
+        for (size_t i = 0; i < this->_successors.size(); ++i)
+        {
+            if (*(this->_successors[i]) != *(other._successors[i]))
+            {
+                return false;
+            }
+        }
+
+        if (this->_processCommands.size() != other._processCommands.size())
+        {
+            return false;
+        }
+        for (size_t i = 0; i < this->_processCommands.size(); ++i)
+        {
+            if ((this->_processCommands[i].get()) != (other._processCommands[i].get()))
+            {
+                return false;
+            }
+        }
+
+        return true;
+    }
+
+    bool operator !=(const ConversationNode &other) const
+    {
+        return !(*this == other);
+    }
 
 private:
     std::set<PriorityNode, PriorityNode::Compare> _successorsByWeight;

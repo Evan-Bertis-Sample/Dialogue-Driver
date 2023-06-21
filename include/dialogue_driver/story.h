@@ -36,17 +36,21 @@ public:
     std::string GetSymbol(std::string collectionName, int symbolID) const;
     void UpdateSymbol(std::string collectionName, int symbolID, std::string newSymbol);
 
-    void AddActor(std::string actorName);
+    void AddActor(std::string actorName, StoryEntity &actor);
     void RemoveActor(std::string actorName);
     StoryEntity &GetActor(std::string actorName);
     void Converse(StoryEntity &entryPoint, Scene &scene, IOBridge &bridge);
 
-    void AddEntryPoint(StoryEntity actor, EntryNode &node);
-    void RemoveEntryPoint(StoryEntity actor, EntryNode &node);
+    void AddEntryPoint(StoryEntity &actor, EntryNode &node);
+    void RemoveEntryPoint(StoryEntity &actor, EntryNode &node);
 
     template <typename T>
-    void UpdateFact(std::string name, T value);
-    bool CheckQuery(Query query) const;
+    void UpdateFact(std::string name, T value)
+    {
+        this->_state.UpdateFact(name, value);
+    };
+
+    bool CheckQuery(Query &query) const;
 
 
 private:
