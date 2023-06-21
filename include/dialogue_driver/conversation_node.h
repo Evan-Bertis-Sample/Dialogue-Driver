@@ -49,7 +49,7 @@ public:
     std::vector<std::shared_ptr<ConversationNode>> GetPlausibleNext(Story &story, Scene &scene) const;
 
     bool IsPlausible(Scene &scene) const;
-
+    
     void ProcessCommands(Story &story, IOBridge &bridge);
 
     bool ConnectNode(std::shared_ptr<ConversationNode> node);

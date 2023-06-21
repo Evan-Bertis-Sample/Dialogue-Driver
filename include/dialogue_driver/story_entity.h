@@ -58,6 +58,13 @@ public:
         return (this->_name == other._name) && (this->_attributes == this->_attributes);
     }
 
+    bool operator<(const StoryEntity& other) const
+    {
+        // You can define the order as per your requirements.
+        // Here's a simple example, ordering by name.
+        return this->_name < other._name;
+    }
+
 private:
     std::string _name;
     FactCollection _attributes;
