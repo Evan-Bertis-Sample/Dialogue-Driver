@@ -17,7 +17,7 @@
 
 class ConversationNode;
 
-typedef struct PriorityNode
+struct PriorityNode
 {
     int priority;
     std::shared_ptr<ConversationNode> node;
@@ -75,11 +75,12 @@ public:
             throw std::logic_error("Invalid type of ConversationCommand!");
         }
 
-        auto it = std::find_if(this->_processCommands.begin(), this->_processCommands.end(), [] (const std::shared_ptr<IConversationCommand> &lhs, const std::shared_ptr<IConversationCommand> &rhs)
+        auto it = std::find_if(this->_processCommands.begin(), this->_processCommands.end(), [command] (const std::shared_ptr<IConversationCommand> &rhs)
         {
-            auto lhsCast = std::dynamic_pointer_cast<T>(lhs);
+            // auto commandPtr = std::make_shared(command);
+            // auto lhsCast = std::dynamic_pointer_cast<T>(commandPtr);
             auto rhsCast = std::dynamic_pointer_cast<T>(rhs);
-            return lhsCast == rhsCast;
+            return command == *rhsCast;
         });
         if (it == this->_processCommands.end())
             return;
