@@ -67,8 +67,10 @@ TEST(ChoiceCommandTests, Execute_Simple)
     choices.push_back(Choice{noReq, std::string("Second Option!")});
 
     auto choiceNodePtr = NodeBuilder::BuildChoiceNode(actor, choices);
+    ASSERT_EQ(choiceNodePtr->Speaker.GetName(), actor.GetName());
     std::string output = "Second Node!";
     auto outputNodePtr = NodeBuilder::BuildOutputNode(actor, output);
+    ASSERT_EQ(outputNodePtr->Speaker.GetName(), actor.GetName());
 
     choiceNodePtr->ConnectNode(outputNodePtr);
 

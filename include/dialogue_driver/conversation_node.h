@@ -41,8 +41,8 @@ public:
     StoryEntity Speaker;
 
     ConversationNode(){};
-    ConversationNode(StoryEntity speaker) : Speaker(speaker) {}
-    ConversationNode(const ConversationNode &other) : _successorsByWeight(other._successorsByWeight), _successors(other._successors), _processCommands(other._processCommands) {}
+    ConversationNode(StoryEntity &speaker) : Speaker(speaker) {}
+    ConversationNode(const ConversationNode &other) : Speaker(other.Speaker), _successorsByWeight(other._successorsByWeight), _successors(other._successors), _processCommands(other._processCommands) {}
 
     std::shared_ptr<ConversationNode> Next(Story &story, Scene &scene) const;
 

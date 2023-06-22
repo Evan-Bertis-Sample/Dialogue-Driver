@@ -1,5 +1,6 @@
 /* node_builder.cpp */
 
+#include <iostream>
 #include <memory>
 #include <vector>
 
@@ -12,7 +13,9 @@
 
 std::shared_ptr<ConversationNode> NodeBuilder::BuildOutputNode(StoryEntity &actor, std::string &content)
 {
+    std::cout << "Building Output Node" << std::endl;
     ConversationNode node(actor);
+    std::cout << node.Speaker.GetName() << std::endl;
     OutputCommand output(content);
     node.AddCommand(output);
     return std::make_shared<ConversationNode>(node);
@@ -20,7 +23,9 @@ std::shared_ptr<ConversationNode> NodeBuilder::BuildOutputNode(StoryEntity &acto
 
 std::shared_ptr<ConversationNode> NodeBuilder::BuildChoiceNode(StoryEntity &actor, std::vector<Choice> &choices)
 {
+    std::cout << "Building Choice Node" << std::endl;
     ConversationNode node(actor);
+    std::cout << node.Speaker.GetName() << std::endl;
     ChoiceCommand choice(choices);
     node.AddCommand(choice);
     return std::make_shared<ConversationNode>(node);

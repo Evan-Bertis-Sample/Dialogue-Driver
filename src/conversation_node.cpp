@@ -13,10 +13,13 @@
 
 std::shared_ptr<ConversationNode> ConversationNode::Next(Story &story, Scene &scene) const
 {
+    std::cout << "Found " << this->_successorsByWeight.size() << " successors" << std::endl;
     for (auto &pNode : this->_successorsByWeight)
     {
+        std::cout << pNode.node->Speaker.GetName() << std::endl;
         if (pNode.node->IsPlausible(scene))
         {
+            std::cout << "found next" << std::endl;
             return pNode.node;   
         }
     }
