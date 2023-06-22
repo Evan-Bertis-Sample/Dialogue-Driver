@@ -23,12 +23,12 @@ class ChoiceCommand : public IConversationCommand
 {
 public:
     // * Constructors
-    ChoiceCommand();
+    ChoiceCommand() {};
     ChoiceCommand(std::vector<Choice> choices) : _choices(choices) {};
     ChoiceCommand(const ChoiceCommand &other) : _choices(other._choices) {};
 
     // * Virtual Functions
-    void Execute(ConversationNode &node, Story &story, IOBridge &bridge) override
+    void Execute(ConversationNode &node, Story &story, Scene &scene, IOBridge &bridge) override
     {
         int choiceCount = std::min(node.NumNodes(), (int)this->_choices.size());
         std::vector<std::string> choicePreviewText;
@@ -56,6 +56,7 @@ public:
         // Now given the choice of the user, set the priority of the next
         int nextNodeIndex = choiceNodeMapping[choice];
         std::shared_ptr<ConversationNode> nextNode = node.GetNode(nextNodeIndex);
+        std::cout << "Setting successor " << nextNodeIndex << " to Next" << std::endl;
         node.UpdateSuccessorPriority(nextNode, 0xFFFFFFF); // Set the priority very high
     }
 

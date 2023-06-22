@@ -110,8 +110,9 @@ TEST_F(ConversationNodeTests, ProcessCommands)
 {
     auto command = OutputCommand(mockContent);
     node1Ptr->AddCommand(command);
+    Scene mockScene;
     // EXPECT_CALL(*command, Execute(testing::Ref(*node1Ptr), testing::Ref(story), testing::Ref(bridge))).Times(1);
-    node1Ptr->ProcessCommands(story, bridge);
+    node1Ptr->ProcessCommands(story, scene, bridge);
 }
 
 TEST_F(ConversationNodeTests, GetNextNode) {

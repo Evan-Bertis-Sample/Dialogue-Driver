@@ -104,7 +104,7 @@ void Story::Converse(StoryEntity &entryPoint, Scene &scene, IOBridge &bridge)
     // "Converse"
     while (node != nullptr)
     {
-        node->ProcessCommands(*this, bridge);
+        node->ProcessCommands(*this, scene, bridge);
         node = node->Next(*this, scene);
     }
 }

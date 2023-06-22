@@ -50,7 +50,7 @@ public:
 
     bool IsPlausible(Scene &scene) const;
 
-    void ProcessCommands(Story &story, IOBridge &bridge);
+    void ProcessCommands(Story &story, Scene &scene, IOBridge &bridge);
 
     bool ConnectNode(std::shared_ptr<ConversationNode> node);
     bool DisconnectNode(std::shared_ptr<ConversationNode> node);

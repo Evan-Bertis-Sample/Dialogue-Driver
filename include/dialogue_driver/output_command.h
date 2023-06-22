@@ -21,7 +21,7 @@ public:
     OutputCommand(const OutputCommand &other) : Content(other.Content) {}
 
     // * Virtual Functions
-    void Execute(ConversationNode &node, Story &story, IOBridge &bridge) override
+    void Execute(ConversationNode &node, Story &story, Scene &scene, IOBridge &bridge) override
     {
         std::cout << "Executing output command!" << std::endl;
         bridge.DisplayContent(this->Content);
