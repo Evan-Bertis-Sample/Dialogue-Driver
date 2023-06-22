@@ -67,7 +67,7 @@ void ConversationNode::ProcessCommands(Story &story, IOBridge &bridge)
 bool ConversationNode::ConnectNode(std::shared_ptr<ConversationNode> node)
 {
     auto found = std::find(this->_successors.begin(), this->_successors.end(), node);
-    if (found == this->_successors.end()) return false;
+    if (found != this->_successors.end()) return false;
 
     this->_successors.push_back(node);
     int priority = this->_successors.size();
@@ -78,9 +78,13 @@ bool ConversationNode::ConnectNode(std::shared_ptr<ConversationNode> node)
 
 bool ConversationNode::DisconnectNode(std::shared_ptr<ConversationNode> node)
 {
-    auto found = std::find(this->_successors.begin(), this->_successors.end(), node);
+    auto found = std::find_if(this->_successors.begin(), this->_successors.end(), [node](const auto &other)
+    {
+        return *node == *other;
+    });
     if (found == this->_successors.end()) return false;
 
+    // std::cout << "Erasing Node!" << std::endl;
     this->_successors.erase(found);
     this->_DeleteNodeFromSet(node);
     return true;
@@ -88,7 +92,8 @@ bool ConversationNode::DisconnectNode(std::shared_ptr<ConversationNode> node)
 
 std::shared_ptr<ConversationNode> ConversationNode::GetNode(int nodeIndex)
 {
-    if (nodeIndex > this->_successors.size())
+    // std::cout << "getting node " << nodeIndex << " out of " << this->_successors.size() << std::endl;
+    if (nodeIndex >= this->_successors.size())
     {
         throw std::out_of_range("Successor Node cannot be found!");
     }

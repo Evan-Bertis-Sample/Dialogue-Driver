@@ -65,7 +65,7 @@ public:
         }
 
         auto commandPtr = std::make_shared<T>(command);
-        this->_processCommands.emplace_back(commandPtr);
+        this->_processCommands.push_back(commandPtr);
     }
     template <typename T>
     void RemoveCommand(T command)

@@ -84,6 +84,7 @@ TEST_F(DialogueTests, UpdateSuccessorPriority)
 {
     node1Ptr->ConnectNode(node2Ptr);
     node1Ptr->UpdateSuccessorPriority(node2Ptr, 10);
+    scene.AddAvailableActor(node2Ptr->Speaker);
     auto nextNode = node1Ptr->Next(story, scene);
     EXPECT_EQ(nextNode, node2Ptr);
 }
