@@ -15,7 +15,7 @@
 #include "dialogue_driver/scene.h"
 #include "dialogue_driver/output_command.h"
 
-class DialogueTests : public ::testing::Test
+class ConversationNodeTests : public ::testing::Test
 {
 protected:
     StoryEntity actor1;
@@ -45,12 +45,12 @@ protected:
     }
 };
 
-TEST_F(DialogueTests, CreateAndGetSpeaker)
+TEST_F(ConversationNodeTests, CreateAndGetSpeaker)
 {
     EXPECT_EQ(node1Ptr->Speaker, actor1);
 }
 
-TEST_F(DialogueTests, AddAndRetrieveCommand)
+TEST_F(ConversationNodeTests, AddAndRetrieveCommand)
 {
     auto command = OutputCommand(mockContent);
     node1Ptr->AddCommand(command);
@@ -58,7 +58,7 @@ TEST_F(DialogueTests, AddAndRetrieveCommand)
     // EXPECT_EQ(retrievedCommands[0], command);
 }
 
-TEST_F(DialogueTests, RemoveCommand)
+TEST_F(ConversationNodeTests, RemoveCommand)
 {
     auto command = OutputCommand(mockContent);
     node1Ptr->AddCommand(command);
@@ -67,20 +67,20 @@ TEST_F(DialogueTests, RemoveCommand)
     EXPECT_TRUE(retrievedCommands.empty());
 }
 
-TEST_F(DialogueTests, ConnectNodes)
+TEST_F(ConversationNodeTests, ConnectNodes)
 {
     node1Ptr->ConnectNode(node2Ptr);
     EXPECT_EQ(node1Ptr->GetNode(0), node2Ptr);
 }
 
-TEST_F(DialogueTests, DisconnectNodes)
+TEST_F(ConversationNodeTests, DisconnectNodes)
 {
     node1Ptr->ConnectNode(node2Ptr);
     node1Ptr->DisconnectNode(node2Ptr);
     EXPECT_THROW(node1Ptr->GetNode(0), std::out_of_range);
 }
 
-TEST_F(DialogueTests, UpdateSuccessorPriority)
+TEST_F(ConversationNodeTests, UpdateSuccessorPriority)
 {
     node1Ptr->ConnectNode(node2Ptr);
     node1Ptr->UpdateSuccessorPriority(node2Ptr, 10);
@@ -89,7 +89,7 @@ TEST_F(DialogueTests, UpdateSuccessorPriority)
     EXPECT_EQ(nextNode, node2Ptr);
 }
 
-TEST_F(DialogueTests, CheckPlausibility)
+TEST_F(ConversationNodeTests, CheckPlausibility)
 {
     scene.AddAvailableActor(actor1);
     scene.AddAvailableActor(actor2);
@@ -97,7 +97,7 @@ TEST_F(DialogueTests, CheckPlausibility)
     EXPECT_TRUE(node1Ptr->IsPlausible(scene));
 }
 
-TEST_F(DialogueTests, GetPlausibleNextNodes)
+TEST_F(ConversationNodeTests, GetPlausibleNextNodes)
 {
     scene.AddAvailableActor(actor1);
     scene.AddAvailableActor(actor2);
@@ -106,7 +106,7 @@ TEST_F(DialogueTests, GetPlausibleNextNodes)
     // EXPECT_EQ(plausibleNodes[0], node2Ptr);
 }
 
-TEST_F(DialogueTests, ProcessCommands)
+TEST_F(ConversationNodeTests, ProcessCommands)
 {
     auto command = OutputCommand(mockContent);
     node1Ptr->AddCommand(command);
@@ -114,7 +114,7 @@ TEST_F(DialogueTests, ProcessCommands)
     node1Ptr->ProcessCommands(story, bridge);
 }
 
-TEST_F(DialogueTests, GetNextNode) {
+TEST_F(ConversationNodeTests, GetNextNode) {
     scene.AddAvailableActor(actor1);
     scene.AddAvailableActor(actor2);
     node1Ptr->ConnectNode(node2Ptr);
@@ -122,7 +122,7 @@ TEST_F(DialogueTests, GetNextNode) {
     EXPECT_EQ(*nextNode, *node2Ptr);
 }
 
-TEST_F(DialogueTests, ComparisonOperators) {
+TEST_F(ConversationNodeTests, ComparisonOperators) {
     auto node3Ptr = std::make_shared<ConversationNode>(actor1);
     EXPECT_TRUE(*node1Ptr == *node3Ptr);
     EXPECT_FALSE(*node1Ptr != *node3Ptr);
