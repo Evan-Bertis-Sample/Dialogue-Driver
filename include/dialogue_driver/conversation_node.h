@@ -55,6 +55,7 @@ public:
     bool ConnectNode(std::shared_ptr<ConversationNode> node);
     bool DisconnectNode(std::shared_ptr<ConversationNode> node);
     std::shared_ptr<ConversationNode> GetNode(int nodeIndex);
+    int NumNodes() const;
 
     template <typename T>
     void AddCommand(T command)

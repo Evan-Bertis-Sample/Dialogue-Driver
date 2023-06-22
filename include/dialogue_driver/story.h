@@ -19,7 +19,9 @@
 #include "entry_node.h"
 #include "scene.h"
 
-//
+class EntryNode;
+struct EntryCompare;
+
 // Stories are comprised of symbols, which can represent characters, locations, etc.
 //
 class Story
@@ -61,7 +63,7 @@ private:
 
     std::map<std::string, StoryEntity> _actors;
 
-    typedef std::set<EntryNode, EntryNode::EntryCompare> _EntrySet;
+    typedef std::set<EntryNode, EntryCompare> _EntrySet;
     std::map<StoryEntity, _EntrySet> _conversations;
 };
 

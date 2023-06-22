@@ -7,6 +7,8 @@
 
 #include "i_conversation_command.h"
 #include "iobridge.h"
+#include "story.h"
+#include "conversation_node.h"
 
 class OutputCommand : public IConversationCommand
 {

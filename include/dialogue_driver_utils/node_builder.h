@@ -16,8 +16,16 @@
 class NodeBuilder
 {
 public:
-    static std::shared_ptr<ConversationNode> BuildOutputNode(std::string context);
-    static std::shared_ptr<ConversationNode> BuildChoiceNode(std::vector<>)
+    // Build a simple node that only outputs text to the IOBridge
+    static std::shared_ptr<ConversationNode> BuildOutputNode(StoryEntity &actor, std::string &content);
+
+    // Build a simple node that only outputs text to the IOBridge
+    static std::shared_ptr<ConversationNode> BuildChoiceNode(StoryEntity &actor, std::vector<Choice> &choices);
+
+    // Build a compound node that:
+    //  1) Outputs text to the IOBridge
+    //  2) Prompts the IOBridge with choices
+    static std::shared_ptr<ConversationNode> BuildBranchNode(StoryEntity &actor, std::string &content, std::vector<Choice> &choices);
 };
 
 #endif // NODE_BUILDER_H

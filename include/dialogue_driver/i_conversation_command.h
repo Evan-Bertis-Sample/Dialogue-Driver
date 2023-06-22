@@ -10,7 +10,6 @@
 #include <memory>
 
 #include "story.h"
-#include "conversation_node.h"
 #include "iobridge.h"
 
 class ConversationNode;

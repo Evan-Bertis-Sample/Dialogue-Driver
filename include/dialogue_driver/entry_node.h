@@ -10,6 +10,8 @@
 #include "scene.h"
 #include "fact_collection.h"
 
+class ConversationNode;
+
 class EntryNode
 {
 public:
@@ -17,37 +19,18 @@ public:
 
     EntryNode(std::shared_ptr<ConversationNode> next) : Next(next) {};
 
-    struct EntryCompare
-    {
-        bool operator()(const EntryNode &below, const EntryNode &above) const
-        {
-            return below.GetPriority() > above.GetPriority();
-        }
-    };
-
-    bool IsPlausible(Scene &scene) const
-    {
-        return this->Next->IsPlausible(scene);
-    }
-
-    int GetPriority() const
-    {
-        return this->_criteria.GetWeight();
-    }
-
-    bool MeetsCriteria(FactCollection &state)
-    {
-        return state.CheckQuery(_criteria);
-    }
-
-    // * Operators
-    bool operator ==(const EntryNode &other) const
-    {
-        return *(this->Next) == *(this->Next) && this->_criteria == other._criteria;
-    }
+    bool IsPlausible(Scene &scene) const;
+    int GetPriority() const;
+    bool MeetsCriteria(FactCollection &state);
+    bool operator ==(const EntryNode &other) const;
 
 private:
     Query _criteria;
+};
+
+struct EntryCompare
+{
+    bool operator()(const EntryNode &below, const EntryNode &above) const;
 };
 
 #endif // ENTRY_NODE_H

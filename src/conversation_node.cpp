@@ -101,6 +101,10 @@ std::shared_ptr<ConversationNode> ConversationNode::GetNode(int nodeIndex)
     return this->_successors[nodeIndex];
 }
 
+int ConversationNode::NumNodes() const 
+{
+    return this->_successors.size();
+}
 void ConversationNode::UpdateSuccessorPriority(std::shared_ptr<ConversationNode> nodePtr, int newPriority)
 {
     this->_DeleteNodeFromSet(nodePtr);
