@@ -10,7 +10,7 @@
 #include "../dialogue_driver/i_conversation_command.h"
 #include "../dialogue_driver/output_command.h"
 #include "../dialogue_driver/story_entity.h"
-#include "../dialogue_driver/choice_command.h";
+#include "../dialogue_driver/choice_command.h"
 
 // A collection of handy functions to build nodes
 class NodeBuilder

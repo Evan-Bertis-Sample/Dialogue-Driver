@@ -1,5 +1,5 @@
-#ifndef OUTPUT_COMMAND_H
-#define OUTPUT_COMMAND_H
+#ifndef CHOICE_COMMAND_H
+#define CHOICE_COMMAND_H
 
 #pragma once
 
@@ -66,4 +66,4 @@ private:
     }
 };
 
-#endif // OUTPUT_COMMAND_H
+#endif // CHOICE_COMMAND_H
