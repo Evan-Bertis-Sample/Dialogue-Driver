@@ -1,18 +1,8 @@
-# cmake_minimum_required(VERSION 3.10)
-# project(Dialogue-Driver)
-
-# add_subdirectory(libs)
-
-# include_directories(include)
-
-# # add_subdirectory(src)
-
-# add_library(dialogue_driver SHARED src/driver.cpp)
-
-# add_subdirectory(tests)
-
 cmake_minimum_required(VERSION 3.15)
 project(Dialogue-Driver)
+
+option(BUILD_TEST "Build Tests" OFF)
+option(BUILD_DLL "Build the DLL" OFF)
 
 set(CMAKE_CXX_STANDARD 17)
 
@@ -29,4 +19,7 @@ add_subdirectory(libs/googletest)
 
 # Include sub-projects.
 add_subdirectory(src)
-add_subdirectory(tests)
+
+if(BUILD_TEST AND EXISTS tests)
+    add_subdirectory(tests)
+endif()

@@ -1,56 +1,73 @@
 # Dialogue-Driver
-**Let writers write.** Building branching dialogue is infamously difficult, both to implement, and to use. Often times, developers must sacrifice features to make dialogue tools writer friendly. This is not the case with this dialogue driver. Using a node-based, simple to use system, writers and developers are able to curate complex character interactions without sacrificing easy-to-use tools or features.
+**Empowering Creativity.**  The development of branching dialogues is a notorious challenge due to its complexity, often leading developers to compromise functionality for usability. Dialogue-Driver upends this by offering a user-friendly, node-based system that enables writers and developers to craft intricate character dialogues without sacrificing tool accessibility or functionality.
 
 ## Features
-- Easily create branching dialogue for any interactive software
-- Create intelligent interactions that change depending on the context
-- Use an intuitive API that is in any programming language that supports dynamically linked libraries
+- Craft intricate, branching dialogues effortlessly for any interactive software.
+- Design intelligent interactions that dynamically adapt to the context.
+- Utilize a user-friendly API compatible with any programming language supporting dynamically linked libraries.
 
+## Repository Contents
+This repository holds the "core" of the ```Dianode```, a tool that powers dialogue interactions. This "black box" orchestrates the magic of Dianode, although it does not generate branching dialogue itself, nor does it manage the dialogue's presentation or interaction in the target medium. Instead, the core forms the foundation upon which all driver implementations are built, acting as the backbone for the tools that generate branching dialogues.
 
-## What is in this Repo?
-This repo contains the "core" of Dialogue Driver. The core is responsible for handling dialogue interactions, and is a "black box" that makes the handles the magic of Dialogue-Driver. The core *is not* responsible for building branching dialogue, nor is it responsible for display and handling of dialogue in the target medium. The core *is*, however, is where implementations for the driver can be built upon, and is the backbone of tools that create the branching dialogue.
+If you aim to add new features to the Driver's core, develop GUIs for creating branching dialogue, or implement the dynamically linked library interface in a particular language, this repository is for you.
 
-Individuals who seek to add core features to the Driver, build GUI's to build branching dialogue, or implement the dynamically linked library interface in a given language should use this repository.
-
-If you are searching for an existing implementation of the GUI or driver in a language (to use this tool in software like Unity, for example), you should look elsewhere. Here are some recommended repos/tools to checkout:
-
+If you're looking for pre-existing implementations of the GUI or driver in a specific language (e.g., for use in software like Unity), you should look elsewhere. Below are some recommended repositories or tools:
 ### GUIs
-- There are no GUIs at the moment, as the core is still under development
-
+- [Dianode (WIP)](https://github.com/Evan-Bertis-Sample/Dianode): A node-based GUI that was created alongside Dialogue-Driver.
 ### Implementations
-- There are no implementations at the moment, as the core is still under development
+- Currently, no implementations are available as the core is still under development.
 
 ## Building
-This project is build with CMake. Before building the project, ensure that you have CMake installed on your system, and a compiler compatible with at least C++17 features.
+### Prerequisites
+To utilize this library, please ensure you have:
+- A C++ compiler that supports C++17.
+- CMake installed on your system.
 
-In your target directory, run the command
-```
+### Quick Start
+To begin, clone the repository:
+
+In your target directory, execute the following command
+
+```bash
+
 git clone https://github.com/Evan-Bertis-Sample/Dialogue-Driver.git
 ```
+If you plan on using the project as a library in a CMake project, there is no need to build via the command line. Just make sure that the library is added through your CMake.
 
-This will clone this repo onto your computer. Then, we can commence the build process. Run the following commands:
-```
+If you wish to build the project as a .dll, you should use the command line. Ensure you have CMake and a C++17 compatible compiler installed on your system.
+
+After cloning this repository, start the build process with these commands:
+
+```bash
+
 cd Dialogue-Driver
 mkdir build
 cd build
 cmake ..
+cmake --DBUILD_DLL=ON .
 cmake --build .
 ```
 
-If you are building the development version, you can ensure that the build was successful by running:
+The output will be `libdialogue_driver.dll` in the `Dialogue-Driver/bin/lib` directory.
+
+If you are on the development branch and wish to build the tests, run this command in the build directory:
+
+```bash
+
+cmake --DBUILD_TEST=ON .
 ```
-ctest
-```
-All tests should pass, meaning it should be safe for you to continue development.
 
 ## Credits
-If you choose to use Dialogue-Driver as a part of your project, please give credit to the original author of the tool.
+If you decide to incorporate Dialogue-Driver into your project, kindly credit the original tool author.
 
-As Dialogue-Driver can be used in many forms of media, including video games, websites and other tools, please give credit in whatever form makes sense for the medium.
+Dialogue-Driver is versatile and can be used across various media types, including video games, websites, and other tools. Please credit the tool in a manner appropriate for your chosen medium.
 
-In your credit, please include the following information:
-```
+The credit should contain the following details:
+
+```makefile
+
 Tool: Dialogue-Driver
 Author: Evan Bertis-Sample
 ```
-Do not feel obliged to give credit to the tool. However, if you enjoyed using it, please consider giving credit!
+
+While crediting is not mandatory, it's much appreciated if you enjoyed using the tool. Please consider doing so!
