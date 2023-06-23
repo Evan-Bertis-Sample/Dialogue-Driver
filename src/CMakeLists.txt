@@ -9,6 +9,6 @@ if (BUILD_DLL)
 
     set_target_properties(dialogue_driver PROPERTIES
         RUNTIME_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR}/bin/lib
-        ARCHIVE_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR}/src/lib
+        ARCHIVE_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR}/bin/lib
     )
 endif()
