@@ -13,7 +13,7 @@ If you aim to add new features to the Driver's core, develop GUIs for creating b
 
 If you're looking for pre-existing implementations of the GUI or driver in a specific language (e.g., for use in software like Unity), you should look elsewhere. Below are some recommended repositories or tools:
 ### GUIs
-- [Dianode (WIP)](https://github.com/Evan-Bertis-Sample/Dianode): A node-based GUI that was created alongside Dialogue-Driver.
+- [Dianode (WIP)](https://github.com/Evan-Bertis-Sample/Dianode-Editor): A node-based GUI that was created alongside Dialogue-Driver.
 ### Implementations
 - Currently, no implementations are available as the core is still under development.
 
